@@ -2,7 +2,7 @@ let local = "diasa";
 
 export default {
     general: {
-        titleWindowsExplorer: 'Diasa',
+        titleWindowsExplorer: 'Manpalider',
         iconWindowsExplorer: '',
         loaderImage: 'Cargando...', //require('./images/loader/831.gif'),
         loaderBackground: 'rgba(215,160,0, 0.1)',
@@ -52,7 +52,7 @@ export default {
         pdfIcon:require('../../images/diasa/newDiasa/icono_PDF.svg'),
         giftSquare:require('../../images/diasa/newDiasa/icono_Regalo_cuadrado.svg'),
         greenCart:require('../../images/diasa/newDiasa/icono_carrito_verde.svg'),
-        diasaIcon: require('../../images/diasa/newDiasa/ic_logo.svg'),
+        diasaIcon: require('../../images/diasa/newDiasa/logo-manpalider.webp'),
 
     },
 
@@ -92,7 +92,7 @@ export default {
         searchAdvanced: require('../../images/diasa/searchAdvanced.png'),
         menu: require('../../images/iconMenu.svg'),
         shoppingCart: require('../../images/diasa/carrito.png'),
-        backgroundColor: 'white',
+        backgroundColor: 'black',
         iconColor: '#0078C0',
         iconColor2: '#FFFFFF',
         iconColor3: '#666666',

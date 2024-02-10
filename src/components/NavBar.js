@@ -1444,7 +1444,7 @@ class NavBar extends Component {
                                                     className="form-control form-control-lg text-left font-weight-normal no-outline"
                                                     id="dropdownAutoComplete"
                                                     name="password"
-                                                    placeholder="Hola, ¿cuál es el modelo, parte o marca que buscabas?"
+                                                    placeholder="Hola, ¿cuál es el articulo que buscas?"
                                                     autoComplete={'off'}
                                                     onKeyDown={event => {
                                                         event.keyCode === 13 && this.search()
@@ -1481,7 +1481,7 @@ class NavBar extends Component {
 
                                                 <div className="input-group-prepend">
                                                     <span className="input-group-text input-group-text-search pt-0 pb-0" style={{ background: "white", borderTopRightRadius: "20px", borderBottomRightRadius: "20px", borderLeft: "none", cursor: "pointer" }} onClick={this.search}>
-                                                        <div style={{ borderRadius: "20px", width: "55px", height: "28px", background: "rgb(0, 96, 234)" }}>
+                                                        <div style={{ borderRadius: "20px", width: "55px", height: "28px", background: "#FF9C00" }}>
                                                             <i class="fa fa-search p-2" style={{ fontSize: "18px", color: "white" }} aria-hidden="true" />
                                                         </div>
                                                     </span>
@@ -1512,7 +1512,7 @@ class NavBar extends Component {
                                                         className="form-control form-control-lg text-left font-weight-normal no-outline"
                                                         id="dropdownAutoComplete"
                                                         name="password"
-                                                        placeholder="Hola, ¿cuál es el modelo, parte o marca que buscabas?"
+                                                        placeholder="Hola, ¿cuál es el articulo que buscas?"
                                                         autoComplete={'off'}
                                                         onKeyDown={event => {
                                                             event.keyCode === 13 && this.search()
@@ -1569,7 +1569,7 @@ class NavBar extends Component {
                                         {sessionReducer.role === ROLES.PUBLIC ?
                                             <>
                                                 <img className='mr-xl-2 d-none d-xl-inline mr-md-4' src={config.navBar.avatar} style={{ maxWidth: "30px", cursor: "pointer" }} />
-                                                <span className="mr-4 d-none d-xl-inline" style={{ color: "black", cursor: "pointer" }}>Inicio de sesión</span>
+                                                <span className="mr-4 d-none d-xl-inline" style={{ color: "white", cursor: "pointer" }}>Inicio de sesión</span>
                                             </>
                                             :
                                             <>
@@ -1745,7 +1745,7 @@ class NavBar extends Component {
                                 </div>
                             </div>
                             <div className='row  d-none d-lg-flex' style={{ height: "44px", fontSize: "1rem" }}>
-                                <div className='col-12 d-lg-flex justify-content-center align-items-center' style={{ background: "#0060ea", color: "white", }}>
+                                <div className='col-12 d-lg-flex justify-content-center align-items-center' style={{ background: "#FF9C00", color: "white", }}>
                                     {sessionReducer.role === ROLES.PUBLIC ?
                                         <>
                                             <div className='d-inline-block'>
