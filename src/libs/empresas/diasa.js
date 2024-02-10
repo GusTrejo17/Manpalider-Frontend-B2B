@@ -307,7 +307,7 @@ export default {
     },
 
     footer: {
-        icon: require('../../images/diasa/footer/logoColor.svg'),
+        icon: require('../../images/diasa/footer/logoColor.webp'),
         iconfmb: require('../../images/diasa/footer/logofmb.svg'),
         backgroundColor: 'black',
         backgroundColor2: '#444444',
@@ -331,23 +331,23 @@ export default {
             {
                 visibility: true,
                 icon: require('../../images/iconFacebook.svg'),
-                linkref: 'https://www.facebook.com/DiasaAbrasivosyHerramientas',
+                linkref: 'https://www.facebook.com/DistribuidoraManpalider',
                 size: '26px'
             },
             {
                 visibility: true,
                 icon: require('../../images/iconInstagram.svg'),
-                linkref: 'https://www.instagram.com/diasa.oficial/',
+                linkref: 'https://www.instagram.com/manpalider/',
                 size: '25px'
             },
             {
-                visibility: true,
+                visibility: false,
                 icon: require("../../images/iconLinkedin.svg"),
                 linkref: 'https://www.linkedin.com/company/diasaabrasivosyherramientas',
                 size: '26px'
             },
             {
-                visibility: true,
+                visibility: false,
                 icon: require('../../images/iconYouTube.svg'),
                 linkref: 'https://www.youtube.com/@DIASAMTY',
                 size: '28px'
@@ -359,7 +359,7 @@ export default {
                 size: '26px'
             },
             {
-                visibility: true,
+                visibility: false,
                 icon: require('../../images/iconWhatsapp.svg'),
                 linkref: 'https://wa.me/message/Z5RDIDIEZBJ2I1',
                 size: '26px'
