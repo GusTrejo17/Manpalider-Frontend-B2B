@@ -98,7 +98,7 @@ export default {
         iconColor3: '#666666',
         iconColorPaginacion: "#E3E3E3",
         textColorPaginacion: "#666666",
-        textColor: 'black',
+        textColor: 'white',
         textColor2: 'white',
         menuCategoriesBackground: '#fff',
         textColorCategorie: 'black',

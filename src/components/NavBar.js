@@ -92,7 +92,7 @@ class NavBar extends Component {
                     <img className='iconUser mr-xl-2 mr-md-4' src={config.navBar.avatar} style={{ maxWidth: "30px", cursor: "pointer" }} />
                     <div className='nombre2 d-flex flex-column'>
                         <span className="nombre0" style={{ color: config.navBar.textColor, font: '-webkit-control', fontSize: '11px', }}>{seller.firstName} {seller.lastName} {(seller.firstName != '' && user.CardName) ? ':' : ''}</span>
-                        <span className="nombre1" style={{ color: '#8f8f8f', fontSize: 10 }}>{user.CardName}</span>
+                        <span className="nombre1" style={{ color: config.navBar.textColor, fontSize: 10 }}>{user.CardName}</span>
                     </div>
                 </div>
             );
@@ -1549,7 +1549,7 @@ class NavBar extends Component {
 
                                                     <div className="input-group-prepend">
                                                         <span className="input-group-text input-group-text-search pt-0 pb-0" style={{ background: "white", borderTopRightRadius: "20px", borderBottomRightRadius: "20px", borderLeft: "none", cursor: "pointer" }} onClick={this.search}>
-                                                            <div style={{ borderRadius: "20px", width: "55px", height: "28px", background: "rgb(0, 96, 234)" }}>
+                                                            <div style={{ borderRadius: "20px", width: "55px", height: "28px", background: "#FF9C00" }}>
                                                                 <i class="fa fa-search p-2" style={{ fontSize: "18px", color: "white" }} aria-hidden="true" />
                                                             </div>
                                                         </span>
@@ -1702,7 +1702,7 @@ class NavBar extends Component {
                                                 {seller && seller.U_FMB_Handel_Perfil !== 5 &&
                                                     <div className='d-flex flex-row mt-2 pr-2'>
                                                         <img className='iconCodigo mr-xl-2 mr-md-4' src={config.navBar.iconoCodigo} style={{ maxWidth: "25px", cursor: "pointer" }} />
-                                                        <span className="nombre6 mr-4 d-none d-xl-inline" style={{ color: "black", cursor: "pointer" }}>Código</span>
+                                                        <span className="nombre6 mr-4 d-none d-xl-inline" style={{ color: config.navBar.textColor, cursor: "pointer" }}>Código</span>
                                                     </div>
                                                 }
                                             </>
@@ -1712,7 +1712,7 @@ class NavBar extends Component {
                                     </div>
                                     {seller ? seller.U_FMB_Handel_Perfil !== 5 ?
                                         <div className={`d-${window.innerWidth <= 991 ? 'none' : 'flex-row mt-2 pr-2 pl-2'}`}>
-                                            <span className='nombre3' style={{ color: "black", cursor: "pointer" }} onClick={() => history.goReports()}>Mis Pedidos</span>
+                                            <span className='nombre3' style={{ color: config.navBar.textColor, cursor: "pointer" }} onClick={() => history.goReports()}>Mis Pedidos</span>
                                         </div>
                                         : '' : ''}
 
