@@ -9,8 +9,8 @@
 .list-group-item.active{
   z-index: 2 !important;
   color: #fff !important;
-  background-color: #0060EA!important;
-  border-color: #0060EA !important;
+  background-color: #FF9C00!important;
+  border-color: #FF9C00 !important;
 }
 .list-group-item-action-1{
   width: 100% !important;
@@ -85,7 +85,7 @@
   margin-top: 20px !important;
 }
 .title hr{
-  border: 3px solid #0078C0;
+  border: 3px solid #FF9C00;
   width: 75%;
   margin-top: 10px !important;
 }

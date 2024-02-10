@@ -227,33 +227,27 @@ export default {
 
     aboutUs: {
         active: true,
-        description: `El 11 de Enero de 1982, se constituyó en la ciudad de Monterrey, 
-        Nuevo León, una de las empresas mayoristas más importantes en 
-        la comercialización de productos abrasivos y herramientas: 
-        Distribuidora Industrial de Abrasivos, S.A. de C.V., la cual , 
-        desde sus inicios, ha tenido clara la misión de ofrecer asistencia 
-        técnica profesional y las mejores líneas de producto, a efecto de 
-        garantizar a sus clientes y usuarios la recepción de soluciones eficaces, 
-        confiables, oportunas y rentables para atención de sus necesidades.`,
-        mission: 'Lograr la completa satisfacción del cliente mediante el abastecimiento eficiente de productos de calidad a precios competitivos, con asesoría técnica y servicio personalizado diferenciado y permanente que asegure una relación de largo plazo con clientes, empleados y proveedores.',
-        vision: 'Seremos una empresa cuya estrategia corporativa, comercial y logística nos permita satisfacer a los mercados que atendemos.',
+        description: `En el año 1985, un grupo de visionarios emprendedores nacionales dio inicio a un proyecto innovador en la comercialización de juguetes, estableciendo sus cimientos en la ciudad de Escazú. A medida que la empresa evolucionó, se identificó la oportunidad de diversificar las líneas de productos para satisfacer las crecientes demandas del mercado. En 1992, se introdujeron las primeras líneas adicionales. No obstante, fue en 1996 cuando se tomó la estratégica decisión de especializarse exclusivamente en la distribución de cuadernos y artículos escolares. Esta elección meticulosa permitió a Manpalider S.A. ofrecer las condiciones más óptimas en el mercado, consolidándose como un referente en la industria.
+        En 1998, nació Manpa CA, S.A. como una alianza estratégica con un destacado fabricante de cuadernos en Venezuela. Esta colaboración emergió como una respuesta conjunta para ampliar los horizontes comerciales en Centroamérica y el Caribe. Sin embargo, en 2008, se concluyó esta relación comercial, dando paso a una nueva fase de expansión y búsqueda de excelencia. En ese mismo año, se forjó una alianza comercial trascendental con Navneet Education, una de las mayores empresas exportadoras de artículos de papel a nivel global. Este acuerdo convirtió a Manpalider en el representante exclusivo en toda Latinoamérica y el Caribe, posicionándola como líder en la provisión de productos escolares de alta calidad. Para el año 2014, Manpalider S.A. logró consolidarse como una entidad dedicada exclusivamente a la distribución de líneas escolares.`,
+        mission: 'Proveer de manera eficiente útiles escolares y artículos de oficina, ofreciendo soluciones integrales y personalizadas, a través de un adecuado clima organizacional, en armonía con el medio ambiente y creando valor a largo plazo para nuestros grupos de interés.',
+        vision: 'Posicionarnos como la distribuidora líder de Costa Rica en los segmentos de librería y oficina, estableciendo relaciones sólidas y de confianza con nuestros clientes, mediante una amplia línea de productos y atención oportuna.',
         values: [],
         images: require('../../images/diasa/about/quienes-somos.jpg'),
     },
 
     contactUs: {
         active: true,
-        iconColor: '#1e629b',
+        iconColor: '#FF9C00',
         locations: [
             {
                 name: 'Oficina principal',
-                street: 'Av. 1a Avenida #1495 Piso 6 Col. Las Cumbres CP 64610 Monterrey, N.L.',
-                country: 'Monterrey, N.L. México.',
-                phone: '(81) 1253 3080 ',//Whatsapp: 3313207614
-                email: 'ventas@diasa.net',
-                maps: 'https://www.google.com/maps/place/DIASA+Distribuidora+Industrial+De+Abrasivos/@25.70146,-100.371041,18z/data=!4m6!3m5!1s0x866297fe437952c3:0xfd14d1c2d299aea2!8m2!3d25.7014604!4d-100.3710413!16s%2Fg%2F11tn_dm2sc?hl=es-419',
-                whatsappLink: 'https://wa.me/message/Z5RDIDIEZBJ2I1',
-                whatsapp: '(81) 8396 4633',
+                street: 'WRXP+PCC, Ruta Nacional Treciaria 310, San José, San Rafael, Guachipelin, Costa Rica',
+                country: 'Guachipelin, Costa Rica',
+                phone: '(772) 123 4567',//Whatsapp: 3313207614
+                email: 'ventas@manpalider.com',
+                maps: 'https://maps.app.goo.gl/EfSUrswsXrkfsXjk9',
+                whatsappLink: 'https://wa.me/message/',
+                whatsapp: '(772) 123 4567',
             }
         ]
     },
