@@ -1,0 +1,3 @@
+azul: #183A66
+Rojo: #D4291F
+blanco: #fff

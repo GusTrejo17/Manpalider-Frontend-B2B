@@ -1,0 +1,972 @@
+/* Seccion de cambios en el front-end*/
+
+/* Centrado e los caruceles */
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Traido desde le archivo ItemList.js*/
+.cardImg {
+  width: 130px !important;
+  height: 130px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+/* ----------------------------------- */
+
+.card:hover {
+  box-shadow: 0px 2px 10px rgba(49, 40, 40, 0.5);
+}
+
+@media only screen and (min-width: 900px) {
+  #sidebar {
+    background-color: #ffffffd7 !important;
+    position: inherit;
+    border: 2px solid #d2d2d2;
+    border-radius: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 825px) {
+  .colmd {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+  }
+
+  .colmd-r {
+    flex: 0 0 59% !important;
+    max-width: 59% !important;
+  }
+}
+
+
+@media (min-width: 826px) and (max-width: 981px) {
+  .colmd {
+    flex: 0 0 28% !important;
+    max-width: 30% !important;
+  }
+}
+
+.toggle-btn {
+  display: none;
+}
+
+.toggle-btn.active {
+  display: none;
+}
+
+#sidebar {
+  background-color: #ffffffd7 !important;
+  position: inherit;
+  border: 2px solid #d2d2d2;
+  border-radius: 0.7rem;
+}
+
+#sidebar.active {
+  background-color: #ffffffd7 !important;
+  position: inherit;
+  border: 2px solid #d2d2d2;
+  border-radius: 0.7rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .colmd {
+    max-height: 30rem !important;
+  }
+
+  #sidebar {
+    position: inherit;
+    z-index: 1003;
+    width: auto;
+    max-width: 100%;
+    height: 0;
+    background-color: #fcfcfc !important;
+    border: 2px solid #d2d2d2;
+    left: -200%;
+    transition: all 500ms linear;
+    transition: left -200% 500ms e;
+    animation-name: salida;
+    animation-duration: 2s;
+    animation-direction: reverse;
+
+  }
+
+  @keyframes salida {
+    0% {
+      height: auto;
+      left: -200%;
+    }
+
+    90% {
+      height: auto;
+      background-color: #89c33f;
+    }
+
+    100% {
+      height: 0;
+      left: 0;
+      background-color: #ff0808;
+    }
+  }
+
+  #sidebar.active {
+    left: 0;
+    position: inherit;
+    height: auto;
+    max-height: 100%;
+    z-index: 1;
+    background-color: #fcfcfc !important;
+    border: 2px solid #d2d2d2;
+    transition: all 500ms linear;
+    overflow-y: scroll;
+    animation-name: salida;
+    animation-duration: 2s;
+    animation-direction: reverse;
+  }
+
+  .toggle-btn {
+    display: inline;
+    top: -21px;
+    left: 0px;
+    position: inherit;
+    background-color: #ffffff00 !important;
+  }
+
+  .toggle-btn.active {
+    display: inline;
+    background-color: #ffffff00 !important;
+    color: #35759b;
+  }
+}
+
+@media only screen and (min-width: 761px) {
+  .nav-lista.active {
+    background-color: #d2d2d200 !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #sidebar {
+    background-color: #ffffffd7 !important;
+    position: inherit;
+    border: 2px solid #d2d2d2;
+    border-radius: 0.7rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 981px) {
+  .colmd {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+  }
+
+  .colmdd {
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+  }
+}
+
+.toggle-btn {
+  display: none;
+}
+
+.toggle-btn.active {
+  display: none;
+}
+
+#sidebar {
+  background-color: #ffffffd7 !important;
+  position: inherit;
+  border: 2px solid #d2d2d2;
+  border-radius: 0.7rem;
+}
+
+#sidebar.active {
+  background-color: #ffffffd7 !important;
+  position: inherit;
+  border: 2px solid #d2d2d2;
+  border-radius: 0.7rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .colmd {
+    max-height: 30rem;
+  }
+
+  #sidebar {
+    position: inherit;
+    z-index: 1003;
+    width: auto;
+    max-width: 100%;
+    height: 0;
+    background-color: #fcfcfc !important;
+    border: 2px solid #d2d2d2;
+    left: -200%;
+    transition: all 500ms linear;
+    transition: left -200% 500ms e;
+    animation-name: salida;
+    animation-duration: 2s;
+    animation-direction: reverse;
+
+  }
+
+  @keyframes salida {
+    0% {
+      height: auto;
+      left: -200%;
+    }
+
+    90% {
+      height: auto;
+      background-color: #89c33f;
+    }
+
+    100% {
+      height: 0;
+      left: 0;
+      background-color: #ff0808;
+    }
+  }
+
+  #sidebar.active {
+    left: 0;
+    position: inherit;
+    height: auto;
+    max-height: 100%;
+    z-index: 1;
+    background-color: #fcfcfc !important;
+    border: 2px solid #d2d2d2;
+    transition: all 500ms linear;
+    overflow-y: scroll;
+    animation-name: salida;
+    animation-duration: 2s;
+    animation-direction: reverse;
+  }
+
+  .toggle-btn {
+    display: inline;
+    top: -21px;
+    left: 0px;
+    position: inherit;
+    background-color: #ffffff00 !important;
+  }
+
+  .toggle-btn.active {
+    display: inline;
+    background-color: #ffffff00 !important;
+    color: #35759b;
+  }
+}
+
+/* ------ Boton para version movil categorias panel izquierdo*/
+
+
+.precioPromocion {
+  text-decoration: line-through !important;
+  color: grey;
+  font-size: large;
+}
+
+#ItemsSlider .card {
+  position: static;
+  transition: all 0.4s ease-in-out;
+  background: white !important;
+  border: solid 2px !important;
+  border-color: #d2d2d2 !important;
+  border-radius: 15px;
+}
+
+#ItemsSlider .card-body {
+  /* font-family: 'Helvetica'; */
+  font-family: 'Poppins';
+  background: white;
+  border-top-style: solid;
+  border-top-color: #efefef !important;
+}
+
+#ItemsSlider .card-footer {
+  background: transparent !important;
+  margin-top: auto;
+}
+
+.cantidad input {
+  border: transparent;
+  background: #efefef;
+  border-radius: 10px;
+}
+
+.cantidad input::placeholder {
+  font-style: normal !important;
+}
+
+.botonAgregar button {
+  width: 78.5px !important;
+  height: 38px;
+  font-size: 12px;
+  background: #89c33f;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.botonAgregar button:hover {
+  background: #89c33f;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+@media (min-width: 1920px) and (max-width: 3500px) {
+  .SliderItems {
+    width: 1630px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+  .SliderItems {
+    width: 910px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 211px) and (max-width: 575px) {
+  .SliderItems .react-multi-carousel-item .card {
+    margin-right: 4.5px !important;
+    margin-left: 4.5px !important;
+  }
+}
+
+.linkFilter {
+  text-decoration: underline 1px !important;
+  color: #6c6c6c;
+}
+
+.linkFilter:hover {
+  text-decoration: underline 3px !important;
+}
+
+/* SECCION DE MARCAS */
+.marcas {
+  height: 272px;
+}
+
+.marcas img {
+  width: 1627px;
+}
+
+/* @media (min-width: 992px) and (max-width: 2500px){
+    .imageCard .card{
+        width: 16rem !important;
+    }
+    .imageCard .titleCard{
+        width: 15rem !important;
+        background: red !important;
+        font-size: 22px;
+        transform: rotate(-30deg);
+        text-align: center;
+        margin: 20px 13px 0px -45px; */
+/* border-bottom-left-radius: -80px -85px; */
+/* }
+  
+    .imageCard img{
+      width: 15rem !important;
+      height: 15rem !important;
+    }
+  } */
+
+/* @media (min-width: 768px) and (max-width: 992px){
+    .imageCard .card{
+        width: 20rem !important;
+    }
+    .imageCard .titleCard{
+        width: 19rem !important;
+        background: red !important;
+    }
+  
+    .imageCard img{
+      width: 19rem !important;
+      height: 19rem !important;
+    }
+  } */
+
+/* tamaño de imagen de cards responsive*/
+
+/* @media (min-width: 576px) and (max-width: 767px){
+      .imageCard .card{
+          width: 20rem !important;
+      }
+      .imageCard .titleCard{
+          width: 19rem !important;
+          background: red !important;
+      }
+      .imageCard img{
+        width: 19rem !important;
+        height: 19rem !important;
+      }
+    }
+  
+  @media (min-width: 211px) and (max-width: 575px){
+    .imageCard .card{
+        width: 15rem !important;
+    }
+    .imageCard .titleCard{
+        width: 13rem !important;
+        background: red !important;
+        transform: rotate(-30deg);
+        text-align: center;
+        margin: 20px 15px 0px -40px;
+    }
+    .imageCard img{
+      width: 14rem !important;
+      height: 14rem !important;
+    }
+  } */
+/*Segundo Estilo de cinta*/
+
+
+/*estio cinta "PROMOCIÓN" */
+.ribbon {
+  position: absolute;
+  left: -19px;
+  top: -16px;
+  z-index: 1;
+  overflow: hidden;
+  width: 150px;
+  height: 126px;
+  text-align: right;
+  cursor: pointer !important;
+}
+
+.ribbon span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 170px;
+  height: 30px;
+  display: block;
+  background: red !important;
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 35px;
+  left: -35px;
+}
+
+.ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  color: black !important;
+  border-left: 3px solid red;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid red;
+}
+
+.ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  color: black !important;
+  border-left: 3px solid transparent;
+  border-right: 3px solid red;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid red;
+}
+
+blink {
+  animation: blinker 1s infinite;
+  color: black;
+}
+
+@keyframes blinker {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: black;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+/*estio cinta "NUEVOS" */
+.ribbonNew {
+  position: absolute;
+  right: -18px;
+  top: 5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 150px;
+  height: 126px;
+  text-align: right;
+  cursor: pointer !important;
+  transform: rotate(90deg);
+}
+
+.ribbonNew span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 170px;
+  height: 30px;
+  display: block;
+  background: rgb(30, 98, 155) !important;
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 35px;
+  left: -35px;
+}
+
+.ribbonNew span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  color: black !important;
+  border-left: 3px solid rgb(30, 98, 155);
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid rgb(30, 98, 155);
+}
+
+.ribbonNew span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  color: black !important;
+  border-left: 3px solid transparent;
+  border-right: 3px solid rgb(30, 98, 155);
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid rgb(30, 98, 155);
+}
+
+/* .nombreArt{
+  text-transform: uppercase !important;
+} */
+
+.ItemName {
+  text-transform: uppercase;
+}
+
+.ItemName p {
+  padding-right: 25px !important;
+}
+
+/* imagenes de carrito en la card de los artículos */
+/* .icoCarrito img{
+  width: 45px;
+  margin-left: 15px;
+}
+
+.detailsItemList .card-body{
+  height: 156px !important;
+  background: red !important;
+} */
+
+/* imagenes de carrito en la card de los artículos */
+.icoCarrito img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* estilos de card en forma de lista */
+.listCards .detailsItemList .card-footer .botonAgregar,
+.botonAgregarYellow,
+.botonAgregarAgotado {
+  justify-content: center !important;
+  text-align: center;
+  margin: auto !important;
+}
+
+.listCards {
+  border-radius: 15px;
+  background: #FFF !important;
+}
+
+.listCards .card-body {
+  border-top: #FFF !important;
+}
+
+@media (min-width: 1920px) and (max-width: 3500px) {
+  .listCards {
+    width: 100%;
+    /* width: 740px;
+     height: 305.500px; */
+  }
+
+  .listCards .imagenArticulo .img {
+    background: transparent !important;
+  }
+
+  .listCards .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px) {
+  .listCards {
+    width: 100%;
+    /* width: 740px;
+     height: 305.500px; */
+  }
+
+  .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .listCards {
+    width: 100%;
+    /* width: 700px;
+     height: 305.500px; */
+    margin-left: 65px !important;
+    margin-right: auto !important;
+  }
+
+  .listCards .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto !important;
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .listCards {
+    width: 100%;
+    /* height: 305.500px; */
+    margin-left: 100px !important;
+    margin-right: auto !important;
+  }
+
+  .imagenArticulo {
+    /* height: 150px !important; */
+    margin: auto !important;
+  }
+
+  .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 12px !important;
+    margin: auto !important;
+  }
+
+  .listCards .detailsItemList .card-footer .botonAgregar,
+  .botonAgregarYellow,
+  .botonAgregarAgotado {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto;
+  }
+
+  .detailsItemList {
+    width: 100px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .botonAgregar button,
+  .botonAgregarYellow button,
+  .botonAgregarAgotado button {
+    width: 70px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 25px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .cantidad input {
+    width: 65px !important;
+    margin: 0px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .listCards {
+    background: #FFF !important;
+    width: 550px !important;
+    height: 305.500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .listCards .detailsItemList {
+    width: 180px;
+  }
+
+  .listCards .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto !important;
+    font-size: 18px !important;
+  }
+
+  .imagenArticulo {
+    /* height: 150px !important; */
+    margin: auto !important;
+  }
+
+  .listCards .detailsItemList .card-footer .botonAgregar button,
+  .botonAgregarYellow button,
+  .botonAgregarAgotado button {
+    width: 90px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: auto !important;
+  }
+
+  .precioCard .precios {
+    height: 30px;
+    display: grid !important;
+    grid-template-columns: 0.5fr 1.5fr !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px) {
+  .listCards .imagenArticulo {
+    margin: auto !important;
+    /* height: 115px !important; */
+    padding-right: 0px;
+    background: transparent !important;
+  }
+
+  .listCards .precioCard .row {
+    width: 180px !important;
+  }
+
+  .precioCard .precios {
+    height: 30px;
+    display: grid !important;
+    grid-template-columns: 0.5fr 1fr !important;
+    padding-left: 0px !important;
+  }
+
+  .precioCard .precios .pricePromo {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .precioCard .precios .descuento {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: small !important;
+    width: 120px;
+    margin: 0;
+  }
+
+  .precios {
+    width: 20px !important;
+    display: grid !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
+
+  .precios .precioPromocion {
+    max-width: 80px !important;
+  }
+
+  .listCards .row {
+    min-width: 360px;
+    /* width: 318px !important; */
+  }
+
+  .listCards .detailsItemList {
+    width: 150px !important;
+    padding-left: 2px !important;
+    padding-right: 2px;
+    /* height: 300px !important; */
+  }
+
+  .listCards .detailsItemList .card-body {
+    /* height: 210px !important; */
+    background: transparent !important;
+  }
+
+  .listCards .detailsItemList .card-body .card-subtitle {
+    width: 150px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background: transparent !important;
+  }
+
+  .nameItemCardList .row {
+    width: 150px !important;
+  }
+
+  .nameItemCardList .nameItemList {
+    font-size: smaller !important;
+  }
+
+  .listCards .cotizacion {
+    width: 150px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .row {
+    display: grid !important;
+    grid-template-columns: 0.3fr 0.3fr 0.5fr !important;
+    width: 165px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .botonAgregar,
+  .botonAgregarYellow,
+  .botonAgregarAgotado {
+    width: 72px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 8px;
+  }
+
+  .listCards .detailsItemList .card-footer .botonAgregar button,
+  .botonAgregarYellow button,
+  .botonAgregarAgotado button {
+    width: 70px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .cantidad input {
+    width: 56px !important;
+    margin: 0px !important;
+  }
+
+  .listCards .detailsItemList .card-footer .icoCarrito img {
+    margin: 0px !important;
+  }
+}
+
+/* correccion de vista de card con item en PROMOCIÓN */
+.imageCard .precios {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.imageCard .precios .descuento {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-size: 16px !important;
+  margin: auto !important;
+}
+
+.imageCard .nameItemCardList .row {
+  width: 300px !important;
+}
+
+/* precios promocion en itemSlider */
+.precioPromocionItemList .descuento {
+  padding-left: 0px !important;
+  padding-right: 8px !important;
+  font-size: 14px !important;
+  margin: auto !important;
+  width: 80px;
+}
+
+.preciosItemSlider .pricePromoItemSlider {
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  font-weight: bolder;
+}
+
+@media (min-width: 211px) and (max-width:575px) {
+  .precioPromocion {
+    width: 150px !important;
+    margin-left: 5px !important;
+  }
+
+  .preciosItemSlider .pricePromoItemSlider {
+    /* background: red !important; */
+    width: 150px;
+    font-size: 23px !important;
+    font-weight: bolder;
+  }
+}
+
+.items708 {
+  justify-content: center;
+  display: "flex";
+  background: "white";
+}
+
+.footer-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.pagination-item {
+  margin: 0 5px;
+}
+
+
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .pagination {
+    /* Adjust styling for smaller screens */
+    font-size: 14px;
+    padding: 6px;
+  }
+}
+
+.pagination {
+  display: flex !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+  border-radius: 0.25rem !important;
+  align-content: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+.category:hover {
+  text-decoration: underline;
+  /* Agrega un subrayado al pasar el cursor sobre la categoría */
+}
+
+
+/* Estilo para categorías */
+.category-nombre {
+  color: rgb(0, 96, 234);
+  /* Color rojo, puedes cambiarlo según tus preferencias */
+}
+
+
+

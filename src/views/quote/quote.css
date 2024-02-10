@@ -1,0 +1,97 @@
+.space{
+  height: 7rem;
+}
+.hidden{
+
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    /* border: 3px solid #1e629b;  */
+    border-right: none;
+    padding: 5px;
+    /* height: 37px; */
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #1e629b;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(	30, 98, 155);
+    background: rgb(	30, 98, 155);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    /* position: inherit; */
+    top: 50%;
+    left: 50%;
+  }
+  .black-text{
+    color: black;
+  }
+  .responsiveQuote{
+    padding-top: "213px";
+    margin: "0px";
+    min-height: "70vh";
+    padding-bottom: "20px";
+  }
+  @media (min-width: 1200px) and (max-width: 1440px){
+    .space{
+      height: 3.8rem;
+
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1199px){
+    .space{
+      height: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px){
+    .space{
+      height: 1rem;
+    }
+  }
+  @media (min-width: 425px) and (max-width: 768px){
+    .hidden{
+      display: none;
+    }
+    .space{
+      
+    }
+  }
+  @media (min-width: 375px) and (max-width: 424px){
+    .hidden{
+      display: none;
+    }
+    .space{
+      
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px){
+    .hidden{
+      display: none;
+    }
+    .space{
+      
+    }
+  }

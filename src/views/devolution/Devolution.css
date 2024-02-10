@@ -1,0 +1,55 @@
+.tituloDevolution{
+    /* font-family: 'Helvetica' !important; */
+    font-family: 'Poppins';
+    background: white;
+    width: 100%;
+}
+.tituloDevolution span{
+    color: #afafaf;
+    font-size: 30px;
+}
+
+.devoluciones .card{
+    border-radius: 15px;
+    border: solid 1px #afafaf;
+    height: 450px;
+}
+
+.devoluciones .card .card-header{
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+.devoluciones .card .card-body .contenido{
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.NotaDevolution{
+    /* font-family: 'Helvetica' !important; */
+    font-family: 'Poppins';
+    background: white;
+}
+
+.NotaDevolution span{
+    color: #afafaf;
+    font-size: 30px;
+}
+
+.NotaDevolution span strong{
+    color: #4D4D4D;
+}
+
+/* responsivo de imagenes */
+@media (min-width: 211px) and (max-width: 991px){
+    .devoluciones .card img{
+        max-width: 250px !important;
+    }
+}
+
+@media screen and  (min-width: 720px){
+    .NotaDevolution .nota{
+        margin-left: 300px !important;
+
+    }
+}

@@ -1,0 +1,83 @@
+/* Creación de un nuevo archivo css para el diseño de la tabla de pedidos */
+/* Cambio del tamaño de la tabla de pedidos de acuerdo a la orientación */
+@media all and (orientation: portrait) {
+    .campo-direccion {
+        font-size: .8rem !important;
+      width: 1000px !important;
+    }
+  }
+  
+  @media all and (orientation: landscape) {
+    .campo-direccion {
+        width: 1000px !important ;
+    }
+  }
+  /* Fin cambios del la tabla pedi dos*/
+
+  /*Hover prueva
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip 
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }*/
+
+  .search {
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    /* width: 100%;
+    border: 2px solid #353535;
+    border-right: none;
+    padding: 5px;
+    height: 37px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #4d4d4d; */
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  
+  select:focus, select.form-control:focus, input.form-control:focus, select.custom-select:focus {
+
+    outline: 0 none; 
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 33.5px;
+    border: 1px solid #0060EA;
+    background: #0060EA;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    /* position: inherit; */
+    width: 100% !important;
+    top: 50%;
+    left: 50%;
+  }

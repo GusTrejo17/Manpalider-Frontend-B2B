@@ -1,0 +1,86 @@
+.bannerRedCompensas img{
+  width: 100%;
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
+
+.MenuEstadoDeCuenta .list-group{
+  padding-top: 100px !important;
+}
+
+.list-group-item{
+  background: #F2F2F2 !important;
+  color: #4d4d4d !important;
+}
+
+.tab-content .tab-pane{
+  background: #EFEFEF !important;
+}
+
+.DetallesEstadoDeCuenta{
+  border: solid 2px #AFAFAF;
+  border-radius: 10px !important;
+}
+
+.list-group-item.list-group-item-action-1.active{
+  z-index: 2 !important;
+  background-color: #EFEFEF !important;
+  border-color: transparent !important;
+  text-decoration: none !important;
+  color: #0078c0 !important;
+  font-weight: bolder !important;
+}
+
+.list-group-item.list-group-item-action-1{
+  width: 100% !important;
+  color:#4d4d4d !important;
+  text-align: inherit !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  background: white !important;
+}
+
+#list-estado, #list-vitrina, #list-politicas, #list-aviso, #list-promos{
+  padding-top: 60px !important;
+}
+
+.page-item.active .page-link{
+  background: #0060EA !important;
+  border-color: #0078c0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 2em !important;
+        padding-top: 8rem;
+    }
+    /* .col-sm-8 {
+        margin-top: 1.5rem !important;
+    } */   
+}
+
+
+/* -------------- margen superior AboutUS -------------------------------*/
+@media screen and (min-width: 1024px){
+  .margenS{
+    padding-top: 105px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .margenS{
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px){
+  .margenS{
+    padding-top: 25px;
+  }
+}
+@media (min-width: 211px) and (max-width: 576px){
+  .margenS{
+    padding-top: 13px;
+  }
+}
+/* ------------------------------------------------------------------------- */

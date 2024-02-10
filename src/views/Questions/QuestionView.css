@@ -1,0 +1,45 @@
+/* -------------- margen superior AboutUS -------------------------------*/
+@media (min-width: 1920px) and (max-width: 3500px){
+    .margenSuperior{
+      padding-top: 16px;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width:1919px){
+    .margenSuperior{
+      padding-top: 26px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px){
+    .margenSuperior{
+      padding-top: 26px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width:991px){
+
+  }
+  
+  @media (min-width: 576px) and (max-width:767px){
+
+  }
+  
+  @media (min-width: 211px) and (max-width:575px){
+    .margenSuperior{
+      padding-top: 6px;
+    }
+  
+  }
+
+.active, .accordion:hover{
+    background-color: #0078C0 !important;
+}
+
+.accordion .card-header span button{
+  font-size: 1.5rem !important;
+}
+
+.accordion .card-body{
+  font-size: 1.2rem!important;
+}

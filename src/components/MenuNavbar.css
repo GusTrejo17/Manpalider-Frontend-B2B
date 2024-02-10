@@ -1,0 +1,6 @@
+.designScroll{
+    overflow: auto;
+}
+.designScroll::-webkit-scrollbar {
+    width: 4px !important;
+}

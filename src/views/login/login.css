@@ -1,0 +1,314 @@
+.login input::placeholder {
+    color: #ced4da !important;
+}
+
+.login input {
+    border-color: #ced4da !important;
+}
+
+.contenidoLogin .tab-content .tab-pane {
+    background: transparent !important;
+}
+
+.login .card {
+    border-radius: 25px !important;
+}
+
+.titulo {
+    padding-left: 0px !important;
+}
+
+@media (min-width: 1920px) and (max-width: 3500px) {
+    .logosLogin {
+        background: #efefef;
+        height: 200px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 400px !important;
+        height: 200px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 210.89px !important;
+        height: 130.637px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 45px !important;
+    }
+
+    .contenidoLogin {
+        height: 715.643px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .borderBotton {
+        height: 72.6px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 30pt;
+    }
+
+    .subtitulo {
+        font-size: 20pt;
+    }
+
+    .descripcion ul li {
+        font-size: 17pt;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1919px) {
+    .logosLogin {
+        background: #efefef;
+        height: 150px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 400px !important;
+        height: 200px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 205.89px !important;
+        height: 130.637px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 35px !important;
+    }
+
+    .contenidoLogin {
+        height: 795.643px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .borderBotton {
+        height: 65.4px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 30pt;
+    }
+
+    .subtitulo {
+        font-size: 20pt;
+    }
+
+    .descripcion ul li {
+        font-size: 17pt;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .logosLogin {
+        background: #efefef;
+        height: 150px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 230px !important;
+        height: 80px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 200px !important;
+        height: 85px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 35px !important;
+    }
+
+    .contenidoLogin {
+        height: 795.643px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .borderBotton {
+        height: 65.4px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 30pt;
+    }
+
+    .subtitulo {
+        font-size: 20pt;
+    }
+
+    .descripcion ul li {
+        font-size: 17pt;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .logosLogin {
+        background: #efefef;
+        height: 150px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 220px !important;
+        height: 80px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 200px !important;
+        height: 85px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 35px !important;
+    }
+
+    .contenidoLogin {
+        height: 800px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .borderBotton {
+        height: 65.4px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 25pt;
+    }
+
+    .subtitulo {
+        font-size: 17pt;
+    }
+
+    .descripcion ul li {
+        font-size: 14pt;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .logosLogin {
+        background: #efefef;
+        height: 150px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 183px !important;
+        height: 77px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 170px !important;
+        height: 75px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 35px !important;
+    }
+
+    .contenidoLogin {
+        height: 800px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .contenidoLogin .login {
+        padding-left: 30px !important;
+        padding-left: 15px !important;
+    }
+
+    .borderBotton {
+        height: 65.4px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 25pt;
+    }
+
+    .subtitulo {
+        font-size: 17pt;
+        margin-left: 20px;
+    }
+
+    .descripcion ul li {
+        font-size: 14pt;
+    }
+}
+
+@media (min-width: 211px) and (max-width:575px) {
+    .login .card {
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+
+    .logosLogin {
+        background: #efefef;
+        height: 230px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logosLogin .logoEmpresa img {
+        width: 230px !important;
+        height: 80px !important;
+    }
+
+    .logosLogin .segundaImg img {
+        width: 200px !important;
+        height: 85px !important;
+    }
+
+    .logosLogin nav {
+        padding-top: 35px !important;
+    }
+
+    .contenidoLogin {
+        max-height: 1200px !important;
+        height: 800px;
+        /* font-family: "Helvetica" !important; */
+        font-family: 'Poppins';
+        background: -webkit-linear-gradient(45deg, rgba(0, 118, 187, 1) 0%, rgba(41, 91, 144, 1) 100%);
+    }
+
+    .borderBotton {
+        height: 65.4px !important;
+        background: #efefef !important;
+    }
+
+    .titulo {
+        font-size: 25pt;
+    }
+
+    .subtitulo {
+        font-size: 17pt;
+        margin-left: 20px;
+    }
+
+    .descripcion ul li {
+        font-size: 14pt;
+    }
+}

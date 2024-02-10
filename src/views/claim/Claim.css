@@ -1,0 +1,37 @@
+/* -------------- margen superior AboutUS -------------------------------*/
+@media (min-width: 1920px) and (max-width: 3500px){
+    .margenSuperior{
+      padding-top: 210px;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width:1919px){
+    .margenSuperior{
+      padding-top: 210px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px){
+    .margenSuperior{
+      padding-top: 180px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width:991px){
+    .margenSuperior{
+      padding-top: 150px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width:767px){
+    .margenSuperior{
+      padding-top: 140px;
+    }
+  }
+  
+  @media (min-width: 211px) and (max-width:575px){
+    .margenSuperior{
+      padding-top: 35px;
+    }
+  
+  }

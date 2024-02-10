@@ -1,0 +1,20 @@
+@media screen and (min-width: 1024px){
+  .pagoRealizado{
+    font-size: 2.0rem;
+    padding-top: 130px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .pagoRealizado{
+    font-size: 2.0rem;
+    padding-top: 60px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .pagoRealizado{
+    font-size: 1.5rem !important;
+    padding-top: 30px !important;
+  }
+}

@@ -1,0 +1,1515 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Helvetica'; */
+    font-family: 'Poppins';
+}
+
+.loader {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select:focus,
+select.form-control:focus,
+input.form-control:focus,
+select.custom-select:focus {
+    /* border-color: rgb(13, 98, 168) !important;
+    box-shadow: 0 0px 0px rgb(13, 98, 168) inset, 0 0 8px rgb(13, 98, 168) !important; */
+    outline: 0 none;
+}
+
+/********************** navbar ******************************************/
+
+.header-top,
+.fixed-top,
+.navBar-container {
+    z-index: 95 !important;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-logo {
+    font-size: 20px !important;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-group-color {
+    background-color: rgb(13, 98, 168) !important;
+    color: white !important;
+}
+
+.nav-item {
+    /* font-size: 1.5rem; */
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-search-responsive {
+    position: fixed;
+    transform: translateY(10px);
+    right: 5%;
+    max-width: 90%;
+    z-index: 100;
+}
+
+.menu-user-responsive {
+    position: fixed;
+    right: 0%;
+    transform: translateY(10px);
+    border: 1px solid white;
+}
+
+.menu-user-responsive-2 {
+    position: fixed;
+    right: 0%;
+    width: 100%;
+    transform: translateY(10px);
+    border: 1px solid white;
+    z-index: 90;
+}
+
+/* second navbar*/
+.navbar-two {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.navbar-two button {
+    margin-left: auto !important;
+}
+
+/****************++  modal login *******************++*/
+#itemDetails {
+    z-index: 98 !important;
+}
+
+.modal .fade {
+    z-index: 98 !important;
+}
+
+.modal-backdrop {
+    z-index: 97 !important;
+}
+
+.login-image {
+    max-height: 50px;
+}
+
+.modal-header {
+    background-color: rgb(259, 259, 250);
+    height: 40px;
+    padding: 5px !important;
+    ;
+}
+
+.modal-title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.logpublic {
+    background-color: rgb(187, 187, 187);
+    opacity: 0.8 !important;
+}
+
+.register {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    color: rgb(249, 192, 0) !important;
+}
+
+.paginacion {
+    margin-top: auto !important;
+    margin-right: 2px;
+}
+
+.buttonPagination {
+    margin: 2px !important;
+}
+
+.pag {
+    margin-top: 8px !important;
+    margin-bottom: 5px !important;
+}
+
+.scroll-tip {
+    /* overflow-y: auto !important; */
+}
+
+.none-scroll {
+    overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar {display: none;} */
+
+#scroll-container {
+    overflow: hidden;
+    max-width: 100%;
+    top: 4px;
+    position: relative;
+    max-height: 35px;
+}
+
+.wrap-container {
+    max-height: 35px;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    background: #E3E3E3;
+    overflow: auto;
+    color: #666666;
+}
+
+.wrap-container ul {
+    list-style: none;
+    position: relative;
+    transition: transform .3s;
+}
+
+.wrap-container ul,
+.wrap-container ul li {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.wrap-container ul li {
+    height: 28px;
+    line-height: 28px;
+    transition: transform .3s;
+    overflow: hidden;
+}
+
+/* .wrap-container ul li:last-of-type { padding-bottom: 50px; } */
+
+/* .wrap-container ul li.actives .item { transform: scale(1.9); } */
+
+.wrap-container ul li .item {
+    position: relative;
+    transition: transform 200ms;
+    display: inline-block;
+}
+
+/************************************     video    ****************************************************/
+section {
+    position: relative;
+    background: white;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+section .container {
+    position: relative;
+    z-index: 2;
+}
+
+section .overlay-wcs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+/**************************** items ********************************************************/
+.card-title {
+    font-size: 20px;
+}
+
+.platform-effect {
+    transition: all .5s cubic-bezier(1, 0, .1, 1);
+}
+
+.platforms {
+    min-width: 100%;
+    height: 100%;
+}
+
+.platforms ul {
+    margin: 0;
+    padding: 0;
+}
+
+.platforms li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.carrito {
+    /* font-family: 'Lato' !important; */
+    font-family: 'Poppins';
+    font-size: 15pt !important;
+    color: rgb(124, 124, 125) !important;
+    ;
+}
+
+.ghost:hover {
+    background-color: rgba(13, 98, 168, 0.5);
+}
+
+#itemDescription:disabled {
+    background: transparent;
+}
+
+.bottonItem {
+    /* font-family: 'Lato Light'; */
+    font-family: 'Poppins';
+    font-size: 25pt;
+    height: auto;
+    border-radius: 350px !important;
+}
+
+.bottonmodal {
+    /* font-family: 'Lato Light'; */
+    font-family: 'Poppins';
+    font-size: 25pt;
+    border-radius: 350px !important;
+    width: 150px;
+    height: 42px;
+}
+
+.bottongf {
+    background: #808080 !important;
+}
+
+.bottongc {
+    background-color: #dfe0de !important;
+}
+
+.colorText {
+    color: #666666 !important;
+}
+
+::placeholder {
+    color: rgb(235, 227, 227);
+}
+
+th {
+    background-color: transparent;
+}
+
+input[placeholder="Cantidad"]::placeholder {
+    color: #666666;
+}
+
+/*EVALUACIÓN DE ESTRELLAS*/
+.ec-stars-wrapper {
+    /* Espacio entre los inline-block*/
+    font-size: 0;
+    display: inline-block;
+}
+
+.ec-stars-wrapper a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-size: 2rem;
+    color: #888;
+}
+
+/* Color de selector de pdre*/
+.ec-stars-wrapper:hover a {
+    color: #eabf28;
+}
+
+/* Color de selector de hijo*/
+.ec-stars-wrapper>a:hover~a {
+    color: #888;
+}
+
+/*-------------------------------*/
+
+#img.zoom {
+    width: 400px;
+    height: 300px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.sombra {
+    box-shadow: 0px 3px 16px -1px rgba(0, 0, 0, 0.55);
+}
+
+.h1 {
+    background-image: url(https://www.gifsanimados.org/data/media/529/fondo-imagen-animada-1192.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: .75;
+    margin: 10px 0;
+}
+
+/* styling my button */
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #000;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    /* font-family: "Montserrat"; */
+    font-family: 'Poppins';
+}
+
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+
+/* Estilos de el menú de la navbar */
+#menu_gral {
+    /* font-family: verdana, sans sherif; */
+    font-family: 'Poppins';
+    /* width: 55% ; */
+    margin: auto;
+    align-content: auto;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: rgb(58, 58, 58);
+    padding: 4px;
+    font-size: 0.8rem;
+    border: 0;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: #000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    width: 12%;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(198, 160, 12);
+    color: #000;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(198, 160, 12);
+    color: #fff
+}
+
+.dropdown-toggle::after {
+    color: white !important;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/*Styles Navbar two */
+.accordion {
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 100%;
+    height: 25%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #A7A6A5;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+/*********************************************      tags      ********************************************************/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*****************************************************************************************************/
+
+
+.divBonificaciones {
+    padding: 0px !important;
+}
+
+.menu-title {
+    text-align: center;
+    padding: 10px !important;
+}
+
+.menu-categories {
+    position: fixed;
+    z-index: 95;
+
+    top: 166px;
+    /* padding-top: 106px; */
+    background-color: transparent;
+    min-height: 100vh;
+    width: 100%;
+    transition: all .5s cubic-bezier(.55, 0, .1, 1);
+    transform: translate3d(-105%, 0, 0);
+}
+
+.menu-sub-categories {
+    box-shadow: 3px 0px 8px 0 rgba(0, 0, 0, 0.2), 3px 0px 8px 0 rgba(0, 0, 0, 0.19);
+    min-height: 50vh;
+    width: 100%;
+    filter: alpha(opacity=50);
+    /* internet explorer */
+    opacity: 0.8;
+    /* safari, chrome, opera */
+}
+
+.open-menu-categories {
+    transform: translate3d(0px, 0, 0);
+    transition: all .5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+
+.menu-categories .navbar-nav .nav-link img {
+    margin-bottom: 5px;
+}
+
+.menu-categories .nav-link:hover {
+    background-color: #d2ab24;
+}
+
+.menu-categories .navbar-nav .nav-item {
+    min-width: 100%
+}
+
+.menu-categories .navbar-nav .nav-link {
+    position: relative;
+    white-space: nowrap;
+}
+
+@media screen and (min-width:1920px) {
+    .menu-categories {
+        /* padding-top: 85px !important; */
+    }
+
+    .menu-sub-categories {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1919px) {
+    .menu-categories {
+        /* padding-top: 7px; */
+    }
+
+    .menu-sub-categories {
+        width: 40%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .menu-categories {
+        /* padding-top: 77px !important;
+        margin-top: -69px; */
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .menu-categories {
+        /* margin-top: -55px !important; */
+    }
+}
+
+/*---------fijar encabezado de menu categorias en responsive ---------*/
+/* .scrollCategories .titleCategories{
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+}
+ 
+.scrollCategories ul{
+    overflow-y: scroll !important;
+    height: 100vh !important;
+} */
+
+/* ------------------------------------------------------------------------- */
+/* PESTAÑA ACTIVA EN REPORTES */
+.navbar-nav>.active>a:focus {
+    background-color: #2d75bd !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .shopping-cart {
+        position: relative;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .ico-nav-shearch-two {
+        display: none;
+    }
+
+    .menu-sub-categories {
+        width: 100%;
+    }
+}
+
+/* tabla Mis pedidos */
+.scrolltable thead tr th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #0060EA;
+}
+
+.scrolltable table-responsive {
+    height: 200px;
+    overflow: scroll;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .tableReports {
+        max-height: 400px !important;
+        overflow: auto !important;
+    }
+}
+
+/* ------estilo de tablas */
+/* .table-striped{
+    box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+} */
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #fff;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: rgb(231,241,250);
+}
+
+/* ----------------- ESTO ES PARA QUE LAS FLECHAS DEL CARRUSEL NO SE SOBREPONGAN EN LA NAVBAR -----------------*/
+.react-multiple-carousel__arrow--left {
+    z-index: 0 !important;
+    left: calc(0% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--right {
+    z-index: 0 !important;
+    right: calc(0% + 1px) !important;
+}
+
+/* ESTILO DE LAS CARDS EN ITEMLIST */ */
+#CardItem .card {
+    background: white !important;
+    border: solid 1px !important;
+    border-color: #d2d2d2 !important;
+    border-radius: 10px;
+
+}
+
+#CardItem .card-body {
+    font-family: 'Poppins';
+    background: white;
+    border-top-color: #efefef00 !important;
+    background: transparent !important;
+    display: table;
+
+}
+
+.cantidad input {
+    border: transparent;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+.cantidad input::placeholder {
+    font-style: normal !important;
+}
+
+.botonAgregar button {
+    background: #89c33f;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.botonAgregar button:hover {
+    background: #89c33f;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.botonAgregarYellow button {
+    background: #efc964;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.botonAgregarYellow button:hover {
+    background: #efc964;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* COLOR DE LOS TITULOS DE LAS CATEGORIAS EN ITEMLIST */
+.TituloCategoria {
+    color: #333333;
+    font-size: 1.3rem;
+}
+
+.SubCategorias {
+    color: #808080;
+}
+
+.social-btn .btn {
+    border: none;
+    margin: 10px 3px 0;
+    opacity: 1;
+}
+
+.social-btn .btn:hover {
+    opacity: 0.9;
+}
+
+.social-btn .btn-secondary,
+.social-btn .btn-secondary:active {
+    background: #507cc0 !important;
+}
+
+.social-btn .btn-info,
+.social-btn .btn-info:active {
+    background: #64ccf1 !important;
+}
+
+.social-btn .btn-danger,
+.social-btn .btn-danger:active {
+    background: #df4930 !important;
+}
+
+/* Login view */
+.text-decoration-underline {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+@media screen and (min-width: 1024px) {
+    .marq {
+        width: 130px;
+        margin: auto;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #0078C0 !important;
+        font-weight: bold !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .marq {
+        width: 100px;
+        margin: auto;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.orig {
+    display: inline-block;
+    transform: translatex(0);
+    animation: marquesina 10s infinite normal linear 1s;
+}
+
+@keyframes marquesina {
+    0% {
+        transform: translatex(0);
+    }
+
+    50% {
+        transform: translatex(-30%);
+    }
+}
+
+
+.ulLogin {
+    list-style: none;
+}
+
+/* Modal de verificacion dos pasos */
+#TwoStepsModal .modal-content .modal-header {
+    background-color: #0078c0 !important;
+}
+
+#TwoStepsModal .modal-content .modal-header .modal-title,
+#TwoStepsModal .modal-content .modal-header button {
+    color: white !important;
+    font-weight: bolder !important;
+}
+
+.inputTwoSteps {
+    height: auto;
+    width: 40px !important;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.inputTwoSteps1 {
+    height: auto;
+    width: 160px !important;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    transition: all .2s ease-in-out;
+    font-size: 22px !important;
+    /* font-family: 'Helvetica' !important; */
+    font-family: 'Poppins';
+}
+
+.inputTwoSteps:focus {
+    border-color: #0078C0;
+    box-shadow: 0 0 5px #0078C0 inset;
+}
+
+.inputTwoSteps::selection {
+    background: transparent;
+}
+
+/* margen superior de la vista mi perfil */
+@media screen and (min-width: 1024px) {
+    .margenMyProfile {
+        padding-top: 230px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .margenMyProfile {
+        padding-top: 150px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .margenMyProfile {
+        padding-top: 180px !important;
+    }
+}
+
+/* margen superior de la vista selector */
+@media screen and (min-width: 1024px) {
+    .margenSelector {
+        padding-top: 50px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .margenSelector {
+        padding-top: 50px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .margenSelector {
+        padding-top: 50px !important;
+    }
+}
+
+/* botones paypal en shoppingCart */
+.buttonPaymentMethod div {
+    z-index: 1 !important;
+}
+
+
+/* fondo de la tabla de facturas vencidas en reportes */
+.overdue .tab-content .tab-pane {
+    background: transparent !important;
+}
+
+/* --------------------------------------------------- */
+/* ------------------------------------------------------ */
+
+/* Hover sobre agregar o agotado en carrito de compras */
+.btn.btn-block.botonAgregar {
+    background: #89c33f;
+}
+
+.btn.btn-block.botonAgregar::before {
+    content: "Agregar";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.btn-block.botonAgregar:hover::before {
+    content: "Comprar";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.botonAgregarAgotado button {
+    background: #e27753;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.btn-block.botonAgregarAgotado {
+    background: #e27753;
+}
+
+.btn.btn-block.botonAgregarAgotado::before {
+    content: "Agregar";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.btn-block.botonAgregarAgotado:hover::before {
+    content: "Agotado";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.btn-block.botonAgregarYellow {
+    background: #efc964;
+}
+
+.btn.btn-block.botonAgregarYellow::before {
+    content: "Agregar";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn.btn-block.botonAgregarYellow:hover::before {
+    content: "Solicitar";
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* imagenes de formas de pago en el carrito */
+.formasPagoImages img {
+    width: 45px;
+}
+
+/* seccion de cupones en shoppincartView */
+.seccionCupon .input-group input {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    max-width: 50% !important;
+}
+
+.seccionCupon .input-group button {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+/* campo comentario en selectAddress */
+.coment textarea::placeholder {
+    color: #0076B8 !important;
+}
+
+/* margen de vista contacto */
+@media screen and (min-width: 1200px) {
+    .Viewcontact {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Viewcontact .correo {
+        font-size: 1rem;
+    }
+}
+
+/* margen superior RedAliado */
+.margenSuperiorRedAliado {
+    padding-bottom: 25px;
+}
+
+/* estilos para progressBar del estado de documento en reportes*/
+.timeline {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px !important;
+}
+
+.timeline .li {
+    transition: all 200ms ease-in;
+    margin-bottom: auto !important;
+}
+
+.timeline .statusAceptado,
+.statusPreparando,
+.statusEmpaquetando,
+.statusFacturado,
+.statusCancelado {
+    padding: 0px 40px;
+    justify-content: center;
+    border-top: 2px solid #D6DCE0;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.timeline h4 {
+    font-weight: 600;
+}
+
+.statusAceptado::before,
+.statusPreparando::before,
+.statusEmpaquetando::before,
+.statusFacturado::before,
+.statusCancelado::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -15px;
+    left: 42%;
+    transition: all 200ms ease-in;
+}
+
+/* si exite el estado de documento se pinta la bolita de azul */
+.timeline .li.complete .statusAceptado {
+    border-top: 2px solid #0078C0;
+}
+
+.timeline .li.complete .statusAceptado:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: "\f058";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: black;
+    position: absolute;
+}
+
+.timeline .li.complete .statusPreparando {
+    border-top: 2px solid #0078C0;
+}
+
+.timeline .li.complete .statusPreparando:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: "\f013";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: black;
+    position: absolute;
+}
+
+.timeline h4 {
+    color: #0078C0;
+}
+
+.timeline .li.complete .statusEmpaquetando {
+    border-top: 2px solid #0078C0;
+}
+
+.timeline .li.complete .statusEmpaquetando:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: "\f06b";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 900;
+    position: absolute;
+}
+
+.timeline .li.complete .statusFacturado {
+    border-top: 2px solid #0078C0;
+}
+
+.timeline .li.complete .statusFacturado:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: "\f02f";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 900;
+    position: absolute;
+}
+
+.timeline .li.complete .statusCancelado {
+    border-top: 2px solid #0078C0;
+}
+
+.timeline .li.complete .statusCancelado:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: "\f057";
+    /* font-family: "Font Awesome 5 Free"; */
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: black;
+    position: absolute;
+}
+
+/* si no se encuentra el estado del doc. se pinta la bolita de gris */
+.timeline .li .incomplete .status {
+    border-top: 2px solid black !important;
+    color: black !important;
+}
+
+.timeline .li .incomplete .status:before {
+    background-color: black !important;
+    color: black !important;
+    border: none;
+    transition: all 200ms ease-in;
+}
+
+.timeline .li .incomplete .timestamp {
+    background: black !important;
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .timeline {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px !important;
+    }
+
+    .timeline .li {
+        transition: all 200ms ease-in;
+        margin-bottom: auto !important;
+    }
+
+    .timeline .statusAceptado,
+    .statusPreparando,
+    .statusEmpaquetando,
+    .statusFacturado,
+    .statusCancelado {
+        padding: 0px 15px;
+        justify-content: center;
+        border-top: 2px solid #D6DCE0;
+        position: relative;
+        transition: all 50ms ease-in;
+        font-size: 18px;
+    }
+
+    .statusAceptado::before,
+    .statusPreparando::before,
+    .statusEmpaquetando::before,
+    .statusFacturado::before,
+    .statusCancelado::before {
+        content: '';
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 25px;
+        border: 1px solid #ddd;
+        position: absolute;
+        top: -15px;
+        left: 42%;
+        transition: all 200ms ease-in;
+    }
+
+    /* si exite el estado de documento se pinta la bolita de azul */
+    .timeline .li.complete .statusAceptado {
+        border-top: 2px solid #0078C0;
+    }
+
+    .timeline .li.complete .statusAceptado:before {
+        border: none;
+        transition: all 200ms ease-in;
+        content: "\f058";
+        /* font-family: "Font Awesome 5 Free"; */
+        font-family: 'Poppins';
+        font-weight: 900;
+        color: black;
+        position: absolute;
+    }
+
+    .timeline .li.complete .statusPreparando {
+        border-top: 2px solid #0078C0;
+    }
+
+    .timeline .li.complete .statusPreparando:before {
+        border: none;
+        transition: all 200ms ease-in;
+        content: "\f013";
+        /* font-family: "Font Awesome 5 Free"; */
+        font-family: 'Poppins';
+        font-weight: 900;
+        color: black;
+        position: absolute;
+    }
+
+    .timeline .li.complete .statusEmpaquetando {
+        border-top: 2px solid #0078C0;
+    }
+
+    .timeline .li.complete .statusEmpaquetando:before {
+        border: none;
+        transition: all 200ms ease-in;
+        content: "\f06b";
+        /* font-family: "Font Awesome 5 Free"; */
+        font-family: 'Poppins';
+        color: black;
+        font-weight: 900;
+        position: absolute;
+    }
+
+    .timeline .li.complete .statusFacturado {
+        border-top: 2px solid #0078C0;
+    }
+
+    .timeline .li.complete .statusFacturado:before {
+        border: none;
+        transition: all 200ms ease-in;
+        content: "\f02f";
+        /* font-family: "Font Awesome 5 Free"; */
+        font-family: 'Poppins';
+        color: black;
+        font-weight: 900;
+        position: absolute;
+    }
+
+    .timeline .li.complete .statusCancelado {
+        border-top: 2px solid #0078C0;
+    }
+
+    .timeline .li.complete .statusCancelado:before {
+        border: none;
+        transition: all 200ms ease-in;
+        content: "\f057";
+        /* font-family: "Font Awesome 5 Free"; */
+        font-family: 'Poppins';
+        font-weight: 900;
+        color: black;
+        position: absolute;
+    }
+
+    /* si no se encuentra el estado del doc. se pinta la bolita de gris */
+    .timeline .li .incomplete .status {
+        border-top: 2px solid black !important;
+        color: black !important;
+    }
+
+    .timeline .li .incomplete .status:before {
+        background-color: black !important;
+        color: black !important;
+        border: none;
+        transition: all 200ms ease-in;
+    }
+
+    .timeline .li .incomplete .timestamp {
+        background: black !important;
+    }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 991px) {
+    .timeline {
+        list-style-type: none;
+        display: block;
+    }
+
+    .timeline .li {
+        transition: all 200ms ease-in;
+        display: flex;
+        width: inherit;
+    }
+
+    .timeline .statusAceptado,
+    .statusPreparando,
+    .statusEmpaquetando,
+    .statusFacturado,
+    .statusCancelado {
+        padding: 0px 40px;
+        justify-content: center;
+        border-top: 2px solid #D6DCE0;
+        position: relative;
+        transition: all 200ms ease-in;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .timeline .status:before {
+        left: -8%;
+        top: 30%;
+        transition: all 200ms ease-in;
+    }
+
+    /*Experimental Dropdown
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: auto;
+        
+        box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        max-width: 300px;
+    }*/
+    .dropdown {
+        height: 200px;
+    }
+
+    .dropdown:hover {
+        height: 300px;
+
+    }
+}
+
+/* ----------------------------------708--------------------------------- */
+/* posisiones tipo bootstrap*/
+
+@media (min-width: 576px) {
+    .position-sm-static {
+        position: static !important;
+    }
+
+    .position-sm-relative {
+        position: relative !important;
+    }
+
+    .position-sm-absolute {
+        position: absolute !important;
+    }
+
+    .position-sm-fixed {
+        position: fixed !important;
+    }
+
+    .position-sm-sticky {
+        position: sticky !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .position-md-static {
+        position: static !important;
+    }
+
+    .position-md-relative {
+        position: relative !important;
+    }
+
+    .position-md-absolute {
+        position: absolute !important;
+    }
+
+    .position-md-fixed {
+        position: fixed !important;
+    }
+
+    .position-md-sticky {
+        position: sticky !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .position-lg-static {
+        position: static !important;
+    }
+
+    .position-lg-relative {
+        position: relative !important;
+    }
+
+    .position-lg-absolute {
+        position: absolute !important;
+    }
+
+    .position-lg-fixed {
+        position: fixed !important;
+    }
+
+    .position-lg-sticky {
+        position: sticky !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .position-xl-static {
+        position: static !important;
+    }
+
+    .position-xl-relative {
+        position: relative !important;
+    }
+
+    .position-xl-absolute {
+        position: absolute !important;
+    }
+
+    .position-xl-fixed {
+        position: fixed !important;
+    }
+
+    .position-xl-sticky {
+        position: sticky !important;
+    }
+}
+
+.modal-open {
+    padding: 0px !important;
+    /* 708 */
+}

@@ -1,0 +1,1117 @@
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+/*Carousel list */
+.alignItem{
+  justify-content: center;
+
+}
+
+/*Clases Css nuevas */
+@media (min-width: 1200px) and  (max-width: 3500px) {
+  .zoomMarginTop{
+    margin-top: 230px;
+  }
+}
+@media (min-width: 992px) and  (max-width: 1199px) {
+  .zoomMarginTop{
+    margin-top: 180px;
+  }
+}
+  
+@media (min-width: 576px) and  (max-width: 991px) {
+  .zoomMarginTop{
+    margin-top: 145px;
+  }
+}
+@media (min-width: 418px) and  (max-width: 575px) {
+  .zoomMarginTop{
+    margin-top: 125px;
+  }
+}
+@media (min-width: 100px) and  (max-width: 417px) {
+  .zoomMarginTop{
+    margin-top: 147px;
+  }
+}
+
+
+
+
+@media (min-width: 992px) and  (max-width: 3500px) {
+  .col-md-6-detail{
+    min-height: 300px;
+  }
+  .thumbs-wrapper{
+    margin: 1px !important;
+  }
+  
+}
+@media (min-width: 778px) and  (max-width: 991px) {
+  .col-md-6-detail{
+    min-height: 150px;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .col-md-6-detail{
+    min-height: 150px;
+  }
+  .thumbs-wrapper{
+    margin: 30px !important;
+  }
+  
+}
+
+.details-content{
+  margin-bottom: 25;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  overflow: auto;
+  font-size: 20;
+  max-height: 130px; 
+  min-height: 110px;
+}
+
+.textLeft-padd{
+  padding: 15px 0px 0px 0px;
+  margin-bottom: 10;
+}
+
+.borderB-details{
+  border-bottom: 7px solid #d2d2d2;
+  
+}
+
+/* Fin Clases css nuevas*/
+
+
+
+.none-scroll{
+  overflow-x: hidden;
+}
+
+/* MEDIAS QUERY PARA HACER RESPONSIVE LA SECCION DE categorias en redPolar */
+@media (min-width: 1920px) and (max-width: 3500px){
+  .categoriasPolar{
+    width: 1350px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .categoriasPolar{
+    width: 1100px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .categoriasPolar{
+    width: 910px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .categoriasPolar{
+    margin-top: 80px;
+    width: 700px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .categoriasPolar{
+    margin-top: 50px;
+    width: 500px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .categoriasPolar{
+    margin-top: 30px;
+    width: 300px !important;
+    height: 300px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* MEDIAS QUERY PARA HACER RESPONSIVE LA SECCION DE IMAGENES DE MARCAS */
+@media (min-width: 1920px) and (max-width: 3500px){
+    .marcas{
+      height: 272px ;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width:1919px){
+    .marcas{
+        height: 200px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width:1199px){
+    .marcas{
+        height: 128px;
+    }
+  }
+
+  /* ESTILOS PARA LA VISTA DETALLES */
+  .geeks .slide img{
+    transition: 0.3s;
+  }
+
+  .geeks .slide:hover img{
+    opacity: 0.7;
+  }
+
+  @media (min-width: 1920px) and (max-width: 3500px){
+
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .borderB-details{
+      min-height: 600px;
+    }
+    .space-line{
+      margin-bottom: 5rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-left: 2rem;
+    }
+    
+    .botonRegresar h5{
+      margin-top: 20px;
+      margin-left: 250px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 480px !important;
+      text-transform: uppercase !important;
+      text-align: center;
+    }
+
+    .IncluyeIva{
+      font-size: 23px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Descripciones{
+      margin-right: auto !important;
+      margin-left: 138px !important;
+      width: 1646px !important;
+      max-width: 1646px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 22px ;
+    }
+
+    .geeks{
+      width: 270px !important;
+      height: 270px !important;
+      max-width: 443px !important;
+      max-height: 443px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 240px !important;
+      transition: 0.3s;
+      border-radius: 10px;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 40px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+
+  }
+
+  @media (min-width: 1200px) and (max-width:1919px){
+    
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .borderB-details{
+      min-height: 400px !important;
+    }
+    .space-line{
+      margin-bottom: 4rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-left: 2rem;
+    }
+    
+    .botonRegresar h5{
+      padding-top: 0px;
+      margin-left: 70px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 480px !important;
+      text-align: center;
+    }
+
+    .IncluyeIva{
+      font-size: 21px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Descripciones ul{
+      width: 926px !important;
+      max-width: 926px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones .tab-content{
+      /*width: 926px !important;
+      max-width: 926px !important;*/
+      width: auto;
+      max-width: auto;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      border: 2px solid #d2d2d2;
+      border-radius: 1rem;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 22px ;
+    }
+
+    .geeks{
+      width: 270px !important;
+      height: 270px !important;
+      max-width: 443px !important;
+      max-height: 443px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 240px !important;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 40px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width:1199px){
+    
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .space-line{
+      margin-bottom: 5rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-left: 2rem;
+    }
+    
+    .botonRegresar h5{
+      padding-top: 0px;
+      margin-left: 30px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 430px !important;
+      text-align: center;
+    }
+
+    .IncluyeIva{
+      font-size: 21px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Descripciones ul{
+      width: 926px !important;
+      max-width: 926px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones .tab-content{
+      /*width: 890px !important;
+      max-width: 890px !important;*/
+      width: auto;
+      max-width: auto;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      border: 2px solid #d2d2d2;
+      border-radius: 1rem;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 22px ;
+    }
+
+    .geeks{
+      width: 270px !important;
+      height: 270px !important;
+      max-width: 443px !important;
+      max-height: 443px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 240px !important;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 40px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width:991px){
+    
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .borderB-details{
+      min-height: 360px !important;
+    }
+    .space-line{
+      margin-bottom: 2rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-left: 2rem;
+    }
+    
+    .botonRegresar h5{
+      padding-top: 0px;
+      margin-left: 30px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 350px !important;
+      text-align: center;
+    }
+    
+
+    .IncluyeIva{
+      font-size: 21px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Descripciones ul{
+      width: 710px !important;
+      max-width: 710px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones .tab-content{
+     /* width: 710px !important;
+      max-width: 710px !important;*/
+      width: auto;
+      max-width: auto;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      border: 2px solid #d2d2d2;
+      border-radius: 1rem;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 22px ;
+    }
+
+    .geeks{
+      width: 230px !important;
+      height: 230px !important;
+      max-width: 350px !important;
+      max-height: 350px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 200px !important;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 30px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width:767px){
+      
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .space-line{
+      border-top: 7px solid #d2d2d2;
+      margin-bottom: 2rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-top: 1rem;
+    }
+    
+    .botonRegresar h5{
+      padding-top: 0px;
+      margin-left: 30px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 350px !important;
+      text-align: center;
+    }
+
+    .IncluyeIva{
+      font-size: 21px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Caracteristicas{
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+    .Descripciones ul{
+      width: 540px !important;
+      max-width: 540px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones .tab-content{
+     /* width: 540px !important;
+      max-width: 540px !important;*/
+      width: auto;
+      max-width: auto;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      border: 2px solid #d2d2d2;
+      border-radius: 1rem;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 22px ;
+    }
+
+    .geeks{
+      width: 350px !important;
+      height: 350px !important;
+      max-width: 350px !important;
+      max-height: 350px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 320px !important;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 30px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 211px) and (max-width:575px){
+        
+    /* Linea de sepación del detalle del producto y su imagen*/
+    .space-line{
+      border-top: 7px solid #d2d2d2;
+      margin-bottom: 2rem;
+      width: 96%;
+    }
+    .space-line .margin-line{
+      margin-top: 1rem;
+    }
+    
+    .botonRegresar h5{
+      padding-top: 0px;
+      margin-left: 20px;
+      margin-bottom: 3rem;
+    }
+
+    .nombreArticulo{
+      font-size: 1.3rem;
+      color: #666666;
+      max-width: 300px !important;
+    }
+
+    .IncluyeIva{
+      font-size: 21px;
+      color: #959595;
+      margin-right: auto !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+
+    /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+    .Caracteristicas{
+      padding-top: 100px;
+      margin-left: 20px;
+    }
+    .Descripciones ul{
+      width: 310px !important;
+      max-width: 310px !important;
+    }
+
+    .Descripciones ul{
+      height: 70px !important;
+      border-bottom: none !important;
+    }
+
+    .Descripciones .tab-content{
+     /* width: 310px !important;
+      max-width: 310px !important;*/
+      font-size: 16px;
+      width: auto;
+      max-width: auto;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      border: 2px solid #d2d2d2;
+      border-radius: 1rem;
+    }
+
+    .Descripciones ul li{
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      /* font-family: "Helvetica" !important; */
+      font-family: 'Poppins';
+      font-size: 18px ;
+    }
+
+    .geeks{
+      width: 310px !important;
+      height: 310px !important;
+      max-width: 310px !important;
+      max-height: 310px !important;
+      border: solid 2px #ADADAD;
+      border-radius: 15px !important;
+    }
+
+    .geeks .slide img{
+      width: auto !important;
+      height: 280px !important;
+    }
+
+    .contenidoCarousel img{
+      margin-bottom: auto !important;
+      margin-top: 10px !important;
+    }
+
+    .geeks .thumbs {
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center;
+      margin-top: 5px !important;
+    }
+
+    .thumb{
+      border: solid 2px #ADADAD !important;
+      border-radius: 10px !important;
+      height: 80px !important;
+      width: 80px !important;
+    }
+
+    .thumb select{
+      border: solid 2px #666666 !important;
+    }
+    .carousel .control-dots .dot{
+      background: #ADADAD !important;
+    }
+
+    .carousel-status{
+      display: none !important;
+    }
+  }
+
+  /* DISEÑO DEL CAMPO CANTIDAD Y BOTON AGREGAR AL CARRITO  */
+  .nombreCaracteristica{
+    color: #666666;
+    font-size: 1.3rem;
+  }
+
+  .caracteristica{
+    color: #666666;
+    font-size:1.3rem;
+  }
+
+  .cantidadDetalles input{
+    /* border: transparent; */
+    border-color: #afafaf;
+    /* background: #ADADAD !important; */
+    background: white !important;
+    border-radius: 10px;
+    color: #0078C0;
+    /* font-family: 'Helvetica' !important; */
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: bold !important;
+    width: 65px !important;
+    height: 45px !important;
+  }
+
+  /* .cantidadDetalles carousel-inner{
+    margin: 20px auto;
+    width: 443px;
+    height: 443px;
+  } */
+
+  .cantidadDetalles button{
+    color: white !important;
+  }
+
+  .cantidadDetalles input::placeholder{
+    font-style: normal !important;
+  }
+
+  .botonAgregarDetalles{
+    padding-right: 0px !important;
+  }
+
+  .botonAgregarDetalles button{
+    background: #89c33f;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  .botonAgregarDetalles button:hover{
+    background: #89c33f;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  /* ESTILO DE LA SECCION DE DETALLES Y CARACTERÍSTICAS */
+  /* .Descripciones{
+    margin-right: auto !important;
+    margin-left: 138px !important;
+    width: 1646px !important;
+    max-width: 1646px !important;
+  }
+
+  .Descripciones ul{
+    height: 70px !important;
+    border-bottom: none !important;
+  }
+
+  .Descripciones ul li{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    font-family: "Helvetica" !important;
+    font-size: 22px ;
+  } */
+
+  /* esto es para dibujar la linea azul debajo del tab activado, ya sea descripcion o características */
+  .nav-tabs .nav-link.active,
+  .show>.nav-tabs .nav-link{
+    border-bottom: solid 4px #0078C0 !important;
+    background: transparent !important;
+    color: #666666 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+.Descripciones .nav-link{
+  color: #666666 !important;
+}
+
+.tab-content{
+  color: #4D4D4D;
+  font-size: 1rem;
+}
+  /* BORDE CARROUSEL */
+  /* .carrouselImages{
+    border: solid 2px #ADADAD;
+    border-radius: 15px !important;
+  } */
+
+/* .geeks{
+  width: 443px !important;
+  height: 443px !important;
+  max-width: 443px !important;
+  max-height: 443px !important;
+  border: solid 2px #ADADAD;
+  border-radius: 15px !important;
+}
+
+.geeks .slide img{
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.contenidoCarousel img{
+  margin-bottom: auto !important;
+  margin-top: 10px !important;
+}
+
+.geeks .thumbs {
+  margin-top: 40px !important;
+}
+
+.thumb{
+  border: solid 2px #ADADAD !important;
+  border-radius: 10px !important;
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.thumb select{
+  border: solid 2px #666666 !important;
+}
+.carousel .control-dots .dot{
+  background: #ADADAD !important;
+}
+
+.carousel-status{
+  display: none !important;
+} */
+
+/* seccion de comentarios y calificacion del producto */
+.califProducto{
+  font-size: 64px;
+  margin-bottom: 0 !important;
+}
+
+.promedioProducto{
+  color: #959595;
+  font-size: 20px;
+}
+
+.commentProduct{
+  font-family: 'Helvetica';
+}
+
+.buttonEnviar button{
+  background: #89c33f;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.buttonEnviar button:hover{
+  color: white;
+}
+
+.nuevoComentario input{
+  border-color: #afafaf;
+  background: white !important;
+  border-radius: 10px;
+  /* font-family: 'Helvetica' !important; */
+  font-family: 'Poppins';
+}
+
+.nuevoComentario textarea{
+  border-color: #afafaf;
+  background: white !important;
+  border-radius: 10px;
+  /* font-family: 'Helvetica' !important; */
+  font-family: 'Poppins';
+}
+
+.nuevoComentario label{
+  font-size: 25px;
+}
+
+/* The Modal (background) */
+.modalImagen .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modalImagen .modal-content {
+  margin: auto;
+  margin-top: 250px !important;
+  display: flex;
+  width: 70%;
+  max-width: 700px;
+}
+
+.modalImagen .modal img{
+  border-radius: 80px !important;
+}
+
+/* Caption of Modal Image */
+.modalImagen #caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modalImagen .modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modalImagen  .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #f1f1f1 !important;
+  font-size: 25px !important;
+  font-weight: bold;
+  transition: 0.3s;
+  background: black;
+  border-radius: 10px !important;
+  padding:4px;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)};
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modalImagen .modal-content {
+    width: 100%;
+  }
+}

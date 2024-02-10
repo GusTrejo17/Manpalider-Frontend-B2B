@@ -1,0 +1,59 @@
+/* @media (min-width: 1200px) and (max-width:1919px){
+
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px){
+
+  }
+  
+  @media (min-width: 768px) and (max-width:991px){
+
+  }
+  
+  @media (min-width: 576px) and (max-width:767px){
+
+  }
+  
+  @media (min-width: 211px) and (max-width:575px){
+
+  }
+
+.geeks{
+    width: 443px !important;
+    height: 443px !important;
+    max-width: 443px !important;
+    max-height: 443px !important;
+    border: solid 2px #ADADAD;
+    border-radius: 15px !important;
+}
+
+.geeks .slide img{
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.carousel-slider{
+    margin-bottom: auto !important;
+    margin-top: 15px !important;
+}
+
+.geeks .thumbs {
+    margin-top: 40px !important;
+}
+
+.thumb{
+    border: solid 2px #ADADAD !important;
+    border-radius: 10px !important;
+    height: 80px !important;
+    width: 80px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.carousel .control-dots .dot{
+    background: #ADADAD !important;
+}
+
+.carousel-status{
+    display: none !important;
+} */

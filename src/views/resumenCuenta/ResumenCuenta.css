@@ -1,0 +1,36 @@
+.data-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.account-data{
+    width: 100%;
+}
+
+th{
+    text-align-last: center;
+    height: 35px;
+}
+
+.just-one-h{
+    height:40px;
+}
+
+.two-h{
+    height: 80px;
+}
+
+td{
+    padding-left: 12px;
+}
+
+.double-r{
+    display: flex;
+    flex-direction: column;
+}
+
+.account-data>tr>td{
+    border: 1px solid gray;
+}

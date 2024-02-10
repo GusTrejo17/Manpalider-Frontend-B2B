@@ -1,0 +1,26 @@
+.cabecera1{
+    background-color:#a91c17;
+    color: white !important;
+}
+#printSection .cabecera1{
+    color: black;
+}
+
+#printSection .botonResumen{
+    visibility: hidden !important;
+}
+.vista .encabezado{
+    display: none !important;
+}
+
+#printSection .encabezado{
+    display: block !important;
+}
+#printSection .vista{
+    margin-left: '6 rem';
+}
+
+/* .encabezado{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+} */

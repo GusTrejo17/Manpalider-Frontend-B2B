@@ -1,0 +1,37 @@
+.hides {
+    display: none;
+  }
+  
+  .hiddes {
+    display: none;
+  }
+
+
+/* Estilos para pantallas más pequeñas (< 992px) */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .form-group-calendario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-width: none !important;
+}
+}
+/* 
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .form-group-calendario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-width: none !important;
+}
+} */
+
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .form-group-titulo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-width: none !important;
+}
+}

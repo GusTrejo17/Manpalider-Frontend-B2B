@@ -1,0 +1,168 @@
+
+.description2{
+  font-size: 1.5rem !important;
+  text-align: justify;
+}
+
+.bannerRedCompensas img{
+  width: 100%;
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
+
+.MenuEstadoDeCuenta .list-group{
+  padding-top: 100px !important;
+}
+
+.list-group-item{
+  background: #F2F2F2 !important;
+  color: #4d4d4d !important;
+}
+
+.tab-content .tab-pane{
+  background: #EFEFEF !important;
+}
+
+.DetallesEstadoDeCuenta{
+  border: solid 2px #AFAFAF;
+  border-radius: 10px !important;
+}
+
+.list-group-item.list-group-item-action-1.active{
+  z-index: 2 !important;
+  background-color: #EFEFEF !important;
+  border-color: transparent !important;
+  text-decoration: none !important;
+  color: #0078c0 !important;
+  font-weight: bolder !important;
+}
+
+.list-group-item.list-group-item-action-1{
+  width: 100% !important;
+  color:#4d4d4d !important;
+  text-align: inherit !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  background: white !important;
+}
+
+#list-estado, #list-vitrina, #list-politicas, #list-aviso, #list-promos{
+  padding-top: 60px !important;
+}
+
+.page-item.active .page-link{
+  background: #0060EA !important;
+  border-color: #0078c0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 2em !important;
+        padding-top: 8rem;
+    }
+    /* .col-sm-8 {
+        margin-top: 1.5rem !important;
+    } */   
+}
+
+
+/* -------------- margen superior AboutUS -------------------------------*/
+@media screen and (min-width: 1024px){
+  .margenS{
+    padding-top: 105px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .margenS{
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px){
+  .margenS{
+    padding-top: 25px;
+  }
+}
+@media (min-width: 211px) and (max-width: 576px){
+  .margenS{
+    padding-top: 13px;
+  }
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+.titleRedZone{
+  margin-top: 60px !important;
+}
+.titleRedZone hr{
+  border: 3px solid #0078C0;
+  width: 55%;
+}
+
+.titleRedZone span{
+  font-weight: bolder;
+  font-size: 25px !important;
+}
+
+.descriptionRedZone{
+  margin-top: 40px ;
+  font-size: 1rem !important;
+  /* font-family: 'Helvetica'; */
+  font-family: 'Poppins';
+}
+
+.description2RedZone{
+  font-size: 20px !important;
+  text-align: justify;
+}
+
+/* boton solicitar Tarjeta */
+.SolicitarTarjeta button{
+  background: -webkit-linear-gradient(45deg, rgba(0,118,187,1) 0%, rgba(41,91,144,1) 100%);
+  border-radius: 15px;
+  color: white;
+}
+
+.SolicitarTarjeta button:hover{
+  background: -webkit-linear-gradient(45deg, rgba(0,118,187,1) 0%, rgba(41,91,144,1) 100%);
+  border-radius: 15px;
+  color: white;
+}
+
+.seccionPedirTarjeta .row{
+  justify-content: left;
+}
+
+.infoTarjeta span{
+  font-size: 25px;
+  font-weight: bold;
+  color: #295b90
+}
+
+.infoTarjeta .descripcionTarjetaRedZone ul{
+  font-size: 18px;
+  font-weight: bold;
+  color: #295b90;
+  font-style: italic;
+}
+
+.infoTarjeta img{
+  width: 10rem;
+}
+
+/*  */
+.descripcionTarjetaRedZone ul .li-azul::marker{
+  font-size: 40px !important;
+  color: #2596be !important;
+}
+
+.descripcionTarjetaRedZone ul .li-rojo::marker{
+  font-size: 50px !important;
+  color: #cc2c14 !important;
+}
+
+.descripcionTarjetaRedZone ul .li-amarillo::marker{
+  font-size: 25px !important;
+  color: #e89c0c !important;
+}

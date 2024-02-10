@@ -1,0 +1,737 @@
+@media screen and (max-width: 700px){
+  .botonePrincipales{
+    font-size: 10px;
+  }
+}
+
+/* Hovers de expanción en los cards de los carruceles  */
+.carousel-DashBoard-img:hover{
+  -webkit-transform:scale(1.2); /* SAFARI-CHROME */
+  -moz-transform:scale(1.2);/* FIREFOX */
+  -ms-transform:scale(1.2);/*OPERA */
+  -o-transform:scale(1.2);/*INTERNET EXPLORER   */
+  transform:scale(1.2);/* ESCALA */
+}
+/*Arreglo de la imagen muestra en el hover*/
+.react-multi-carousel-track {
+  /* margin-top: 55px; */
+}
+
+.contenedor2{
+    width:14 px;
+    height:150 rem;
+    background-color:red;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+      overflow:hidden;
+      margin-bottom: 2rem;
+  }
+
+  .Img{
+      margin-top:1rem;
+      width: 353px;
+      height: 353px;
+      border: 5px solid black;
+      margin-left: 15px;
+      margin-bottom:20px;
+  }
+
+
+  .Imagem{
+    margin-top:1rem;
+    width: 353px;
+    height: 353px;
+    margin-left: 15px;
+    margin-bottom:20px;
+    float: left;
+}
+
+.contenedor3{
+    width: 1845px;
+    height: 345px;
+    image-resolution: 72 dpi;
+    margin-top: 2 rem;
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.h4{
+    position: relative;
+    top:270px;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+  }
+
+/* MENU AZUL QUE SE ENCUENTRA DEBAJO DEL BANNER */
+
+.categorias .nav{
+  background: -webkit-linear-gradient(45deg, rgba(0,118,187,1) 0%, rgba(41,91,144,1) 100%);
+}
+
+.categorias ul li a{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.categorias img{
+  max-width: 11rem !important;
+}
+
+@media (min-width: 1920px) and (max-width: 3500px){
+  .categorias{
+    height: 62.5px;
+    width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .categorias img{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .categorias{
+    height: 62.5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .categorias img{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .categorias{
+    height: 62.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .categorias img{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .categorias{
+    height: 62.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .categorias img{
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+}
+
+/* SLIDER DE LA SECCIÓN DE REFACCIONES */
+@media (min-width: 1920px) and (max-width: 3500px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 145px;
+  }
+  .refacciones{
+    width: 1330px !important;
+    height: 350px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 73px;
+  }
+  .refacciones{
+    width: 1100px !important;
+    height: 350px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+  }
+  .refacciones{
+    width: 910px !important;
+    height: 266px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+  }
+  .refacciones{
+    height: 266px !important;
+    width: 700px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+  .refacciones{
+    height: 266px !important;
+    width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .titulodeSeccionRefacciones{
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+
+  .refacciones{
+    height: 266px !important;
+    width: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .refacciones .react-multi-carousel-item{
+    /* margin-right: 3px !important;
+    margin-left: 3px !important; */
+    margin-right: 0px;
+    margin-left: 0px ;
+  }
+}
+
+/* SECCION PROMORED */
+@media (min-width: 1920px) and (max-width: 3500px){
+  .titulodeSeccionPromoRed{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 145px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .titulodeSeccionPromoRed{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 145px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .titulodeSeccionPromoRed{
+    padding-top: 80px;
+    font-size: 36px;
+    color: #666666;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .titulodeSeccionPromoRed{
+    padding-top: 80px;
+    font-size: 36px;
+    color: #666666;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .titulodeSeccionPromoRed{
+    padding-top: 80px;
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .titulodeSeccionPromoRed{
+    padding-top: 80px !important;
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+}
+
+/* SECCION NUEVOS PRODUCTOS */
+@media (min-width: 1920px) and (max-width: 3500px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 145px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 73px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .titulodeSeccionNuevosProductos{
+    font-size: 36px;
+    color: #666666;
+    text-align: center !important;
+  }
+}
+
+/* SECCIÓN DE ENVÍOS */
+.envios{
+  background-color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.envios a{
+  color: #007bff !important;
+}
+
+.envios span{
+  color: #007bff !important;
+}
+
+.envios p{
+  font-size: 1rem;
+}
+
+.enviosRepublica {
+  border-left:solid 1.2px rgb(199, 199, 199);
+}
+
+.comprasSeguras {
+  border-left:solid 1.2px rgb(199, 199, 199);
+}
+
+.marcas img{
+  width: 70%;
+}
+@media (min-width: 1920px) and (max-width: 3500px){
+  .envios{
+    height: 353.33px;
+  }
+
+  .envios .pagosTarjeta{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .enviosRepublica{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .comprasSeguras{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .envios{
+    height: 353.33px;
+  }
+
+  .envios .pagosTarjeta{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .enviosRepublica{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .comprasSeguras{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .envios{
+    height: 353.33px;
+  }
+
+  .envios .pagosTarjeta{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .enviosRepublica{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .comprasSeguras{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .envios{
+    height: 353.33px;
+  }
+
+  .envios .pagosTarjeta{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .enviosRepublica{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .envios .comprasSeguras{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+}
+
+/* SECCIÓN DE MARCAS */
+@media (min-width: 1920px) and (max-width: 3500px){
+  .marcas{
+    height: 306.4px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .marcas{
+    height: 306.4px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .marcas{
+    height: 234.4px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .marcas{
+    height: 160.4px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .marcas{
+    height: 88.4px;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .marcas{
+    height: 88.4px;
+  }
+}
+
+/* imagenes del carousel de marcas */
+/* @media (min-width: 1920px) and (max-width: 3500px){
+  .carouselDash{
+    padding-top: 16px;
+  }
+} */
+
+/* @media (min-width: 1200px) and (max-width:1919px){
+  .carouselDash{
+    padding-top: 26px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .carouselDash{
+    padding-top: 26px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .carouselDash{
+    padding-top: 7px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .carouselDash{
+    padding-top: 20px !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .carouselDash{
+    padding-top: 20px !important;
+  }
+} */
+
+/* imagenes del carousel de marcas */
+.carouselMarcas img{
+  max-width: 8rem !important;
+}
+
+.carouselPromos img{
+  max-width: 95% !important;
+}
+
+@media (min-width: 768px) and (max-width:1294px){
+  .carouselMarcas{
+    margin-top: 35px !important;
+  }  
+}
+
+@media (min-width: 1920px) and (max-width: 3500px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -21px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 9px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -40px;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .tituloPopulares{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -38px;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 3500px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -21px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 73px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 9px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -50px;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .tituloMejores{
+    font-size: 36px;
+    color: #666666;
+    margin-left: -35px;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 3500px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 164px;
+  }
+
+  .ConoceTarjeta{
+    width: 813.398px;
+    height: 348.242;
+  }
+
+  .cardsDescubre{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  .RefigeracionComercialIndustrial{
+    width: 813.398px;
+    height: 348.242;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 188px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 50px;
+  }
+
+  .ConoceTarjeta{
+    width: 813.398px;
+    height: 348.242;
+  }
+
+  .RefigeracionComercialIndustrial{
+    width: 813.398px;
+    height: 348.242;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 30px;
+  }
+
+  .ConoceTarjeta .btn{
+    font-size: 0.5rem !important;
+  }
+
+  .RefigeracionComercialIndustrial .btn{
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 3px;
+    text-align: center !important;
+  }
+
+  .ConoceTarjeta .btn{
+    font-size: 1rem !important;
+  }
+
+  .RefigeracionComercialIndustrial .btn{
+    font-size: 1rem !important;
+  }
+
+  .cardsDescubre{
+    margin-left: 0px !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .tituloCategorias{
+    font-size: 36px;
+    color: #666666;
+    margin-left: 2px;
+    text-align: center !important;
+  }
+
+  .ConoceTarjeta .btn{
+    font-size: 0.5rem !important;
+  }
+
+  .RefigeracionComercialIndustrial .btn{
+    font-size: 0.5rem !important;
+  }
+  .cardsDescubre{
+    margin-left: 0px !important;
+  }
+}

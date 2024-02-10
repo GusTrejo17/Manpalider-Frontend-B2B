@@ -1,0 +1,164 @@
+
+.footer .titulo {
+  font-size: 14pt;
+}
+
+.legales a:link,
+a:visited,
+a:active {
+  text-decoration: none !important;
+}
+
+.aniversario img {
+  max-width: 200px;
+  margin: auto !important;
+}
+
+.logoCliente img {
+  max-width: 160px;
+}
+
+.logoFMB img {
+  width: 110px;
+}
+
+@media (min-width: 1211px) and (max-width: 1200px) {
+  .contacto .mail {
+    font-size: 8px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1210px) {
+  .aniversario {
+    margin-right: 20px !important;
+    padding-left: 0px !important;
+    margin-right: 10px !important;
+  }
+
+  .aniversario img {
+    width: 140px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .mail {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 211px) and (max-width: 767px) {
+  .social {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .contacto {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1fr !important;
+  }
+
+  .contacto img {
+    width: 1.4rem !important;
+  }
+
+  .contacto span {
+    font-size: 0.7rem;
+  }
+
+  .mail {
+    font-size: 0.2rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 3000px) {
+  .legales {
+    justify-content: start !important;
+  }
+
+  .empresa {
+    justify-content: start !important;
+  }
+
+  .contacto {
+    justify-content: start !important;
+  }
+}
+
+@media (min-width: 211px) and (max-width: 575px) {
+  .aniversario img {
+    padding-top: 10px !important;
+    width: 130px;
+  }
+
+
+
+
+
+  .legales {
+    text-align: center;
+  }
+
+  .empresa {
+    text-align: center;
+  }
+
+  .contacto {
+    text-align: center !important;
+    margin: auto !important;
+    justify-content: center !important;
+  }
+}
+
+.horarios {
+  max-width: 290px;
+}
+
+.byFMBSolutions a {
+  text-decoration: none !important;
+}
+
+
+.menuFooter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #000000 !important;
+  background-clip: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  color: white
+}
+
+.menuFooter:hover {
+  box-shadow: none !important;
+}
+
+.fmb-footer-icon {
+  max-width: 130px;
+  height: 90px;
+}
+
+@media (max-width: 767px) {
+  footer-section.fmb-footer-icon.responsive{
+    display: none;
+    width: 22%;
+    margin: auto;
+  }
+
+
+  .footer-none{
+    margin: auto;
+    padding: 45px;
+    display: block;
+    height: 120px;
+    width: 210px;
+  }
+}
+
+.footer-main-container{
+  margin: 0 !important;
+}

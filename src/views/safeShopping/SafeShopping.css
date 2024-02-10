@@ -1,0 +1,26 @@
+.titleSpan{
+  font-weight: bolder;
+  font-size: 2.5rem !important;
+  text-align: center;
+  color:black;
+
+}
+
+.tituloSafeShopping{
+    /* font-family: 'Helvetica' !important; */
+    font-family: 'Poppins';
+}
+.tituloSafeShopping span{
+    color: #4D4D4D;
+    font-size: 1.5rem;
+}
+
+.pasosCompraSegura h5{
+    font-weight: bold;
+}
+
+.pasosCompraSegura span{
+    color: #4D4D4D;
+    font-size: 18px;
+    font-style: italic;
+}

@@ -1,0 +1,114 @@
+
+.list-group-item{
+  background: #F2F2F2 !important;
+}
+
+.tab-content .tab-pane{
+  background: #EFEFEF !important;
+}
+.list-group-item.active{
+  z-index: 2 !important;
+  color: #fff !important;
+  background-color: #0060EA!important;
+  border-color: #0060EA !important;
+}
+.list-group-item-action-1{
+  width: 100% !important;
+  color: #0060aa !important;
+  text-align: inherit !important;
+}
+@media screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 2em !important;
+        padding-top: 8rem;
+    }
+    /* .col-sm-8 {
+        margin-top: 1.5rem !important;
+    } */   
+}
+
+
+/* -------------- margen superior AboutUS -------------------------------*/
+@media (min-width: 1920px) and (max-width: 3500px){
+  .margenS{
+    padding-top: 16px;
+  }
+
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1919px){
+  .margenS{
+    padding-top: 26px;
+  }
+
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .margenS{
+    padding-top: 26px;
+  }
+
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .margenS{
+    padding-top: 5px;
+  }
+
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 211px) and (max-width:575px){
+  .margenSuperiorMenuCategorias{
+    margin-top: 150px;
+  }
+}
+/* ------------------------------------------------------------------------- */
+.title{
+  margin-top: 20px !important;
+}
+.title hr{
+  border: 3px solid #0078C0;
+  width: 75%;
+  margin-top: 10px !important;
+}
+
+.titleSpan{
+  font-weight: bolder;
+  font-size: 2.5rem !important;
+  text-align: center;
+  color:black;
+
+}
+
+.description{
+  margin-top: 20px ;
+  font-size: 1.5rem !important;
+  text-align: justify;
+}
+
+.description2{
+  font-size: 1.5rem !important;
+  text-align: justify;
+}
+.description2 span{
+  font-weight: bolder;
+   font-size: 1.5rem !important;
+}

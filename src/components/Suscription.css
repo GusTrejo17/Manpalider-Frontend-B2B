@@ -1,0 +1,193 @@
+.fondo{
+    background: -webkit-linear-gradient(45deg, #e7e7e7 0%, #e7e7e7 100%);
+    height: 113.841px; 
+}
+
+.fondo input::placeholder{
+    color: #9e9a9a;
+    font-style: normal;
+}
+
+.form-control input:focus{
+    background: -webkit-linear-gradient(45deg, #e7e7e7 0%, #e7e7e7 100%);
+    color: white;
+    border:1px solid white !important;
+    outline: none !important;
+}
+
+.fondo button:hover{
+    color: white !important;
+}
+
+.fondo button i{
+    font-size: 1.3rem !important;
+}
+
+
+.SeccionBoletin span{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+@media (min-width: 1920px) and (max-width: 3500px){
+    .fondo .Suscripcion{
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Suscripcion input{
+        background-color: white !important;
+        border-color: white;
+        width: 200px !important;
+        border-right: transparent !important;
+        margin-left: 40px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 1rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+}
+  
+  @media (min-width: 1200px) and (max-width:1919px){
+    .fondo .Suscripcion{
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Suscripcion input{
+        background-color: white;
+        border-color: white;
+        width: 200px !important;
+        border-right: transparent !important;
+        margin-left: 40px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 1rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px){
+    .fondo .Suscripcion{
+        width: 910px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Suscripcion input{
+        background-color: white;
+        border-color: white;
+        width: 200px !important;
+        border-right: transparent !important;
+        margin-left: 40px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 1rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width:991px){
+    .fondo .Suscripcion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Suscripcion input{
+        background-color: white;
+        border-color: white;
+        width: 200px !important;
+        border-right: transparent !important;
+        margin-left: 40px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 1rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width:767px){
+    .fondo .Suscripcion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Suscripcion input{
+        background-color: white;
+        border-color: white;
+        width: 80px !important;
+        border-right: transparent !important;
+        margin-left: 40px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 1rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+  }
+  
+  @media (min-width: 211px) and (max-width:575px){
+    .Suscripcion{
+        max-width: 290px;
+    }
+    
+    .Suscripcion input{
+        background-color: white;
+        border-color: white;
+        width: 40px !important;
+        border-right: transparent !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        font-size:0.8rem;
+    }
+    
+    .fondo button{
+        color: white;
+        border: solid 1px white !important;
+        font-size: 0.8rem !important;
+        border-left: transparent !important;
+        border-bottom-right-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+
+    .fondo button i{
+        color: white;
+        font-size: 0.8rem !important;
+    }
+  }

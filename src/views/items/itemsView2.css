@@ -1,0 +1,220 @@
+.description-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 800px;
+}
+
+.description-main-container>div:nth-child(1),
+.description-main-container>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tags-container {
+    display: flex;
+    gap: 12px;
+}
+
+.buttons-description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.quantity {
+    display: flex;
+    gap: 6px;
+    grid-area: quantity;
+}
+
+.quantity>input {
+    width: 65px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding-left: 16%;
+}
+
+.buttons-description-container>button {
+    border-radius: 8px;
+    border: none;
+}
+
+.button-quantity {
+    width: 30px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.add-cart {
+    background-color: rgb(221, 244, 224);
+    color: rgb(98, 159, 62);
+    border: rgb(98, 159, 62) solid 1px;
+    width: 125px;
+    grid-area: add-cart;
+}
+
+.go-cart {
+    background-color: rgb(98, 159, 62);
+    color: white;
+    width: 125px;
+    grid-area: go-cart;
+}
+
+.favorites {
+    grid-area: favorites;
+}
+
+.files-container {
+    display: flex;
+    justify-content: start;
+    overflow-y: scroll;
+    gap: 25px;
+}
+
+.files-container>a {
+    display: flex;
+    /* background-color: red; */
+    width: 20%;
+    align-items: center;
+    gap: 8px;
+    color: rgb(56, 141, 214);
+    font-weight: bold;
+}
+
+.files-container>a>span {
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.promo-container {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.promo-info{
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    display: flex;
+    gap: 0.0rem;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+    align-items: center;
+    height: 95px;
+
+}
+
+.images-main-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.images-main-container>img {
+    max-width: 60%;
+    min-width: 400px;
+}
+
+.images-main-container>div {
+    display: flex;
+    flex-direction: column;
+    max-width: 18%;
+    overflow-y: scroll;
+    max-height: 450px;
+    gap: 18px;
+}
+
+.images-main-container>div>img {
+    max-width: 100%;
+    border: 0.5px solid rgb(184, 184, 184);
+    min-width: 75px;
+}
+
+@media (max-width: 1095px) {
+    .images-main-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .images-main-container>img {
+        min-width: 300px;
+        max-width: 50%;
+    }
+
+    .images-main-container>div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .images-main-container>div>img {
+        max-width: 80px;
+    }
+
+    .buttons-description-container {
+        display: grid;
+        grid-template-areas:
+            'quantity favorites'
+            'go-cart add-cart'
+            'go-cart add-cart';
+        gap: 12px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Caracteristicas {
+        padding: 0;
+    }
+
+    .Caracteristicas>div:first-child {
+        border: none !important;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 1095px) {
+    .images-main-container>div {
+        margin-left: 65px;
+    }
+}
+
+@media (max-width: 575px) {
+    .images-main-container>div {
+        margin-left: 40px;
+    }
+
+    .promo-info-container>span {
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 400px){
+    .Caracteristicas{
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 350px) {
+    .col-lg-2,col-sm-auto,.col-md-auto{
+      width: 50px !important;
+      padding-right: 15px !important;
+    }
+  }
+  
+

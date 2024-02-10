@@ -1,0 +1,104 @@
+/* input[type="text"], select.form-control {
+    position: absolute !important;
+    top: 0 !important;
+    right: 1rem !important;
+    color: transparent !important;
+    cursor: pointer !important;
+    font-size: 2rem !important;
+    -webkit-transition: .3s color !important;
+    transition: .3s color !important;
+} */
+
+.form-control.form-control-lg.profileForm {
+  background: transparent !important ;
+  border: none !important ;
+  -webkit-box-shadow: none !important ;
+  box-shadow: none !important ;
+  border-radius: 0 !important ;
+  margin: 0;
+  padding: 0;
+}
+
+.form-control.form-control-lg.profileForm:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.borderRadius{
+  border: solid 2px white;
+  border-radius: 15px !important;
+  background-color: white !important;
+}
+
+.cardWhite {
+  background-color: white !important;
+}
+
+.form__labelProfile {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  margin-top: 0.7rem;
+  transition: all 0.3s;
+  text-align: left !important;
+  padding-left: 0px !important;
+}
+
+.form-control.form-control-lg.profileForm.form__inputProfile {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins';
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  transition: all 0.3s;
+}
+/*
+.form-control.form-control-lg.profileForm.form__inputProfile:placeholder-shown + .form__labelProfile {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
+
+.liTransition{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.liTransitionIcon{
+  display: grid !important;
+  grid-template-columns: 4.5fr 1fr !important;
+}*/
+
+@media screen and (min-width: 1200px){
+  .margenSuperiorViewProfile{
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .margenSuperiorViewProfile{
+    padding-top: 45px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .margenSuperiorViewProfile{
+    padding-top: 20px;
+  }
+}
+.titleSpan{
+  font-weight: bolder;
+  font-size: 2.5rem !important;
+  text-align: center;
+  color:black;
+
+}
+
+.description{
+  font-size: 1.5rem !important;
+  text-align: justify;
+}

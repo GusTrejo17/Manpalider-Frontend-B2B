@@ -1,0 +1,65 @@
+.modal-dialog-socio {}
+
+#modal-dialog-socio {
+    background: white;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    width: 85%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 190px;
+}
+
+.modal-body.infoSocio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal-body.infoSocio>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body.infoSocio>div>span:first-child{
+    color: rgb(0, 96, 234);
+    font-weight: bold;
+}
+
+.close-btn{
+    border: none;
+    background-color: white;
+}
+
+.close-btn>span{
+    font-size:20px ;
+}
+
+.incident-box{
+ 
+    display:flex; 
+    flex-direction:column;
+    align-items: start; 
+    justify-content:center;
+    margin-left:28px;
+    margin-top:20px;
+    
+
+}
+
+.comment-box{
+    
+    display: flex; 
+    flex-direction:column; 
+    align-items:flex-start; 
+    justify-content:center; 
+    margin-left:28px;
+    margin-top:20px;
+}
+
+.table thead th{
+border-bottom: 2px solid #dee2e6 !important;
+
+}

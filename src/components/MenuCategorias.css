@@ -1,0 +1,18 @@
+/* Cambio del tamaño del menú de la hamburguesa de acuerdo a la orientación */
+@media all and (orientation: portrait) {
+    .menu-burger {
+      height: auto;
+      max-height: 45vh;
+      overflow: auto;
+    }
+  }
+  
+  @media all and (orientation: landscape) {
+    .menu-burger {
+      height: auto;
+      max-height: 45vh;
+      overflow: auto;
+    }
+  }
+  /* Fin cambios del menú hamburguesa */
+  

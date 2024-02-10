@@ -1,0 +1,35 @@
+
+title span{
+  font-weight: bolder;
+  font-size: 2.5rem !important;
+  text-align: center;
+  color:black;
+
+}
+
+.list-group-item{
+    background: #F2F2F2 !important;
+  }
+  
+  .tab-pane{
+    background: #fff !important;
+  }
+  .list-group-item.active{
+    z-index: 2 !important;
+    color: #fff !important;
+    background-color:#0060EA !important;
+    border-color:#0060EA !important;
+  }
+  .list-group-item-action-1{
+    width: 100% !important;
+    color: #0060aa !important;
+    text-align: inherit !important;
+  }
+  @media screen and (max-width: 600px) {
+      .display-4 {
+          font-size: 2em !important;
+      }
+      .col-sm-8 {
+          margin-top: 1.5rem !important;
+      }
+  }
