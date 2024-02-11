@@ -1004,7 +1004,7 @@ class QuoteView extends Component {
                     </div> */}
                         <div className="card style-articles-cart" style={{borderRadius: 20, marginBottom:"3rem",border:"solid 1px rgb(	30, 98, 155"}}>
                         {/* cambios desde aqui */}
-                            <div className="card-header" style={{paddingTop:16, background: "#0060EA", borderTopLeftRadius: 20, borderTopRightRadius: 20,}}>
+                            <div className="card-header" style={{paddingTop:16, background: config.Back.color, borderTopLeftRadius: 20, borderTopRightRadius: 20,}}>
                                 <div className='row'>
                                     <p className="card-title col-12 col-sm-8 row" style={{ color: config.shoppingList.textProductList, justifyContent: "left" }}>Articulos resultantes&nbsp;&nbsp; <span className="small" style={{ color: "white", marginTop: "auto", marginBottom: "auto" }} ></span></p>
                                     <div className='text-right col-12 col-sm-4' style={{ width: '100%' }}>
@@ -1053,7 +1053,7 @@ class QuoteView extends Component {
                                                         <button
                                                             className="btn btn-sm"
                                                             type="button"
-                                                            style={{backgroundColor:'rgb(0, 96, 234)', color: config.navBar.iconModal }}
+                                                            style={{backgroundColor: config.Back.color, color: config.navBar.iconModal }}
                                                             onClick={(event) => this.changeQuantity(itemLite, event)}
                                                         >
                                                             <i className="fas fa-plus-circle"></i>

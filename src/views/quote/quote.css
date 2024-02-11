@@ -29,8 +29,8 @@
   .searchButton {
     width: 40px;
     height: 36px;
-    border: 1px solid rgb(	30, 98, 155);
-    background: rgb(	30, 98, 155);
+    border: 1px solid #FF9C00;
+    background: #FF9C00;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
