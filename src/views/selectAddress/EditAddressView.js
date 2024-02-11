@@ -1519,8 +1519,8 @@ class EditAddressView extends Component {
                     {addressEnvioBillType === 'Envio' &&
                         <>
                             <div className="col-sm-8 pb-2">
-                                <div className="card style-articles-cart" style={{ borderColor: '#0060EA', borderRadius: 20}}>
-                                    <div className="card-header" style={{ background: "#0060EA", borderTopRightRadius: 20, borderTopLeftRadius: 20  }}>
+                                <div className="card style-articles-cart" style={{ borderColor: config.Back.color, borderRadius: 20}}>
+                                    <div className="card-header" style={{ background: config.Back.color, borderTopRightRadius: 20, borderTopLeftRadius: 20  }}>
                                         <h5 className="card-title" style={{ color: config.shoppingList.textProductList }}>
                                             Direcciones de envío:
                                             </h5>

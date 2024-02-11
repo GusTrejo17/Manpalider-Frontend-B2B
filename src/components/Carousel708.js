@@ -149,7 +149,7 @@ class Carousel708 extends Component {
                             <span className="card-text" style={{ color: "#0060ea" }}>{multiplo ? multiplo : '1'}</span>
                         </div>
                         <div className='card-footer pt-0' style={{ background: "white", borderTop: "none", borderBottomRightRadius: "10px", borderBottomLeftRadius: "10px" }}>
-                            <label class="" style={{ fontSize: "18px", color: "#00aa08", fontWeight:'bolder' }}>
+                            <label class="" style={{ fontSize: "18px", color: config.Back.color, fontWeight:'bolder' }}>
                                 {items[itemCount + index].U_web === 0 || items[itemCount + index].U_web === null
                                     ? "Solicite su cotización"
                                     : (valor == '0' || !items[itemCount + index].U_FMB_Handel_Promo || items[itemCount + index].U_FMB_Handel_Promo === '' || items[itemCount + index].U_FMB_Handel_Promo == 0 || items[itemCount + index].DiscountPercentSpecial == 0 ?
@@ -272,7 +272,7 @@ class Carousel708 extends Component {
                                 {items[itemCount + index].U_web === 0 || items[itemCount + index].U_web===null ? '' :
                                 <button
                                     href="#" class="btn btn-primary d-inline-block ml-2"
-                                    style={{ borderRadius: "10px", background: "#00aa08", border: "#00aa08" }}
+                                    style={{ borderRadius: "10px", background:config.Back.color, border: config.Back.color }}
                                     readOnly={items[itemCount + index].Available === 0 || items[itemCount + index].Available === '' ? true : false}
                                     value={(items[itemCount + index].quantity ? Number(items[itemCount + index].quantity) : multiplo)}
                                     onClick={(event) => { changeQuantity(index, items[itemCount + index], event) }}

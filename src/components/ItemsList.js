@@ -418,7 +418,7 @@ class ItemsList extends Component {
                                                     <span className="card-text" style={{ color: "#AFAFAF" }}>Multiplo de venta: </span>
                                                     <span className="card-text" style={{ color: "#0060ea" }}>{multiplo ? multiplo : '1'}</span>
                                                    <br></br>
-                                                   <label class="" style={{ fontSize: "17px", color: "#00aa08", fontWeight: 'bolder',  marginTop:'5px' }}>
+                                                   <label class="" style={{ fontSize: "17px", color: config.Back.color, fontWeight: 'bolder',  marginTop:'5px' }}>
                                                         {item.U_web === 0 || item.U_web === null
                                                             ? "Solicite su cotización"
                                                             : (item.PriceBeforeDiscount === item.Price && (item.DiscountPercentSpecial === 0 || item.DiscountPercentSpecial == null)) ? (
@@ -543,7 +543,7 @@ class ItemsList extends Component {
                                                         :
                                                         <button
                                                             href="#" class="btn btn-primary d-inline-block ml-2"
-                                                            style={{ borderRadius: "10px", background: "#00aa08", border: "#00aa08" }}
+                                                            style={{ borderRadius: "10px", background: config.Back.color, border: config.Back.color}}
                                                             readOnly={item.Available === 0 || item.Available === '' ? true : false}
                                                             value={(item.quantity ? Number(item.quantity) : 1)}
                                                             onClick={(event) => { this.changeQuantity(index, item, event) }}

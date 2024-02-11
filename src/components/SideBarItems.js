@@ -312,7 +312,7 @@ class SideBarItems extends Component {
                         <button
                             className="btn btn-link border-0"
                             onClick={() => this.deleteFilters()}
-                            style={{ textDecoration: 'none', fontWeight: 'bold', color: '#0078c0', cursor: 'pointer' }}
+                            style={{ textDecoration: 'none', fontWeight: 'bold', color: config.Back.color, cursor: 'pointer' }}
                         >Borrar filtros</button>
                     </div>
                     {/* Categorías */}
@@ -328,7 +328,7 @@ class SideBarItems extends Component {
                                     <li key={index} >
                                         <div
                                             className="category-nombre"
-                                            style={{ cursor: 'pointer' }}
+                                            style={{ cursor: 'pointer', color: config.Back.color}}
                                             onClick={() => this.subCategorySearch(categoria.U_Categoria)}
                                         >
                                             {categoria.U_Categoria}
@@ -377,12 +377,12 @@ class SideBarItems extends Component {
                                     </li>
                                 ))}
                                 {categoryShow < category.length && (
-                                    <label style={{ color: "#0078c0", cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMas}>
+                                    <label style={{ color: config.Back.color, cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMas}>
                                         <strong> Ver más</strong>
                                     </label>
                                 )}
                                 {categoryShow > 5 && (
-                                    <label style={{ color: "#0078c0", cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMenos}>
+                                    <label style={{ color: config.Back.color, cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMenos}>
                                         <strong> Ver menos</strong>
                                     </label>
                                 )}
@@ -398,7 +398,7 @@ class SideBarItems extends Component {
                         <ul className="mt-2 SubCategorias">
                             <dl>
                                 {seleccionados.length > 0 && (
-                                    <label style={{ color: "#0078c0", cursor: 'pointer' }} onClick={() => this.DeleteFilter('MARCAS')}>
+                                    <label style={{ color: config.Back.color, cursor: 'pointer' }} onClick={() => this.DeleteFilter('MARCAS')}>
                                         Borrar filtro Marcas
                                     </label>
                                 )}
@@ -419,12 +419,12 @@ class SideBarItems extends Component {
                                     );
                                 })}
                                 {this.state.showVerMasBrand && this.state.cantidadMostrada < dataCategories.itemsBrands.length && (
-                                    <label style={{ color: "#0078c0", cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMasBrand}>
+                                    <label style={{ color: config.Back.color, cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMasBrand}>
                                         <strong> Ver más</strong>
                                     </label>
                                 )}
                                 {this.state.cantidadMostrada > 10 && (
-                                    <label style={{ color: "#0078c0", cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMenosBrand}>
+                                    <label style={{ color: config.Back.color, cursor: 'pointer', marginRight: '10px' }} onClick={this.handleVerMenosBrand}>
                                         <strong> Ver menos</strong>
                                     </label>
                                 )}

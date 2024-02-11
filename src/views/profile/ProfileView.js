@@ -787,7 +787,7 @@ class ProfileView extends Component {
                                 <div className="col-md-2 text-right">
                                     <button
                                         onClick={editModePersonalInfoZone === false ? () => this.onChangeZone('editModePersonalInfoZone') : this.updatePartnerInfo}
-                                        className="btn btn-primary btn-lg mt-2 mb-2 btnProfile" style={{backgroundColor:'rgb(0, 96, 234)', borderColor:'rgb(0, 96, 234)'}}>
+                                        className="btn btn-primary btn-lg mt-2 mb-2 btnProfile" style={{backgroundColor:config.Back.color, borderColor:config.Back.color, border:config.Back.color}}>
                                         {editModePersonalInfoZone === false ? 'Editar' : 'Actualizar'}
                                     </button>
                                 </div>
@@ -796,7 +796,7 @@ class ProfileView extends Component {
                                         <button
                                             onClick={this.onCancelZone}
                                             className="btn  btn-lg mt-md-2 btnProfile"
-                                            style={{backgroundColor:'rgb(0, 96, 234)', borderColor:'rgb(0, 96, 234)', color:'white'}}>
+                                            style={{backgroundColor: config.Back.color, borderColor: config.Back.color, color:'white'}}>
                                             Cancelar
                                         </button>
                                     </div>
@@ -910,7 +910,7 @@ class ProfileView extends Component {
                                 <div className="col-md-2 text-right">
                                     <button
                                         onClick={editModeAccountInfoZone === false ? () => this.onChangeZone('editModeAccountInfoZone') : this.updatePartnerInfo}
-                                        className="btn btn-primary btn-lg mt-2 mb-2 btnProfile" style={{backgroundColor:'rgb(0, 96, 234)', borderColor:'rgb(0, 96, 234)'}}>
+                                        className="btn btn-primary btn-lg mt-2 mb-2 btnProfile" style={{backgroundColor:config.Back.color, borderColor:config.Back.color}}>
                                         {editModeAccountInfoZone === false ? 'Editar' : 'Actualizar'}
                                     </button>
                                 </div>
@@ -919,7 +919,7 @@ class ProfileView extends Component {
                                         <button
                                             onClick={this.onCancelZone}
                                             className="btn btn-lg mt-2 mb-2 btnProfile"
-                                            style={{backgroundColor:'rgb(0, 96, 234)',borderColor:'rgb(0, 96, 234)', color:'white'}}>
+                                            style={{backgroundColor:config.Back.color, borderColor: config.Back.color, color:'white'}}>
                                             Cancelar
                                         </button>
                                     </div>
@@ -997,7 +997,7 @@ class ProfileView extends Component {
                                     <button
                                         className="btn btn-lg text-white"
                                         type="button"
-                                        style={{ background: "#0060EA", borderRadius: "10px", padding: 7 }}
+                                        style={{ background: config.Back.color, borderRadius: "10px", padding: 7 }}
                                         onClick={() => history.goEditAddress()}>
                                         Apartado de direcciones
                                     </button>
