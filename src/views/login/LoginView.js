@@ -1269,18 +1269,18 @@ class LoginView extends Component {
                             <div className="col-12 borderBotton"></div>
                         </div>
                         :
-                        <div className='content-fluid'>
+                        <div className='content-fluid' style={{backgroundColor: config.Back.backgroundColor ,  paddingLeft:0, paddingRight:0}} >
                             <div className='row justify-content-center' style = {{alignItems: "center", height: "100vh"}}>
-                                <img className='im-fluid' src = {require('../../images/backgroundLogin.jpg')} style={{position: "fixed"}} alt='background'/>
+                                {/* <img className='im-fluid' src = {require('../../images/backgroundLogin.jpg')} style={{position: "fixed"}} alt='background'/> */}
                                 <div className='col-lg-5 text-center'>
                                     <img className = "img-fluid" onClick={() =>history.push('/')} src = {config.navBar.icon} style = {{maxWidth: 280, maxHeight: 130, cursor: "pointer"}} alt = {'logo-empresa'}/>
                                 </div>
                                 <div className='col-lg-7'>
-                                    <div className='position-lg-fixed' style={{background: "white", height: "100%", width: "100%",  top:"0"}}/>
+                                    <div className='position-lg-fixed' style={{background: config.login.background, height: "100%", width: "100%",  top:"0"}}/>
                                     <div className='row'>
                                         <div className='col-12 text-center mb-3'>
-                                            <h2 style={{fontWeight: "bolder"}}>¡B I E N V E N I D O!</h2>
-                                            <label>Por favor ingrese su información:</label>
+                                            <h2 style={{fontWeight: "bolder", color: config.login.textColor}}>¡B I E N V E N I D O!</h2>
+                                            <label style={{color: config.login.textColor}}>Por favor ingrese su información:</label>
                                         </div>
                                     </div>
                                     <div className='row'>
@@ -1288,7 +1288,7 @@ class LoginView extends Component {
                                         <div className='col-lg-6 col-10'>
                                             <div className="input-group mb-3" style={{borderRadius: "20px", boxShadow: "0px 0px 10px #3d3a3a33"}}>
                                                 <div className="input-group-prepend">
-                                                    <span className="input-group-text" style={{background: "white", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px", borderRight: "none"}}><i className={config.icons.user + " pl-2 pr-2"} /></span>
+                                                    <span className="input-group-text" style={{background: "white", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px", borderRight: "none"}}><i className={config.icons.user + " pl-2 pr-2"} style={{color: config.login.colorIcons}}/></span>
                                                 </div>
                                                 <input
                                                     id={'handel_user'}
@@ -1304,7 +1304,7 @@ class LoginView extends Component {
                                             </div>
                                             <div className="input-group mb-3" style={{borderRadius: "20px", boxShadow: "0px 0px 10px #3d3a3a33"}}>
                                                 <div className="input-group-prepend">
-                                                    <span className="input-group-text" style={{background: "white", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px", borderRight: "none"}}><i className={config.icons.password + " pl-2 pr-2"}/></span>
+                                                    <span className="input-group-text" style={{background: "white", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px", borderRight: "none"}}><i className={config.icons.password + " pl-2 pr-2"} style={{color: config.login.colorIcons}}/></span>
                                                 </div>
                                                 <input
                                                     id={'handel_password'}
@@ -1324,16 +1324,16 @@ class LoginView extends Component {
                                                     onClick={this.submit}
                                                     className="btn btn-block btn-md font-weight-bolder mb-md-2 align-middle mt-4"
                                                     style={{
-                                                        backgroundColor: '#0060EA',
+                                                        backgroundColor: config.login.buttons,
                                                         color: config.navBar.iconModal,
                                                         maxWidth: "200px",
                                                         borderRadius: "20px"
                                                     }}>
-                                                    <h4 className = "align-middle" style={{fontWeight: "25"}}>INGRESAR</h4>
+                                                    <h4 className = "align-middle" style={{fontWeight: "bolder"}}>INGRESAR</h4>
                                                 </button>
                                             </div>
                                             <div className="text-center mt-md-2">
-                                                    <span className = "font-weight-normal"  style={{cursor:'pointer'}} onClick = {this.forgottenPassword}>
+                                                    <span className = "font-weight-normal"  style={{cursor:'pointer', color: config.login.textColor}} onClick = {this.forgottenPassword}>
                                                         ¿Olvidaste tu contraseña?
                                                     </span>
                                                 </div>
@@ -1368,19 +1368,19 @@ class LoginView extends Component {
                                         <div className='col-lg-3 col-1'/>
                                         <div className='row'>
                                             <div className='col-12 mt-4'>
-                                                <a className="input-group-text d-inline-block" style={{background: "white", borderRadius: "20px", height: "34px", border: "2px solid #0060EA"}}  href="https://wa.me/message/Z5RDIDIEZBJ2I1">
-                                                    <i className="fa fa-whatsapp" style={{color: "#0060EA"}}/>
+                                                {/* <a className="input-group-text d-inline-block" style={{background: config.login.backIcons, borderRadius: "20px", height: "34px", border: config.login.borderIcons}}  href="https://wa.me/message/Z5RDIDIEZBJ2I1">
+                                                    <i className="fa fa-whatsapp" style={{color: config.login.colorIcons}}/>
+                                                </a> */}
+                                                <a className="input-group-text d-inline-block mr-4 ml-4" style={{background: config.login.backIcons, borderRadius: "20px", height: "34px", border: config.login.borderIcons}} href= {config.socialMedia.facebook}>
+                                                    <i className="fa fa-facebook" style={{color: config.login.colorIcons}}/>
                                                 </a>
-                                                <a className="input-group-text d-inline-block mr-4 ml-4" style={{background: "white", borderRadius: "20px", height: "34px", border: "2px solid #0060EA"}} href="https://www.facebook.com/DiasaAbrasivosyHerramientas">
-                                                    <i className="fa fa-facebook" style={{color: "#0060EA"}}/>
-                                                </a>
-                                                <a className="input-group-text d-inline-block" style={{background: "white", borderRadius: "20px", height: "34px", border: "2px solid #0060EA"}}  href="https://www.linkedin.com/company/diasaabrasivosyherramientas">
-                                                    <i className="fa fa-linkedin" style={{color: "#0060EA"}}/>
+                                                <a className="input-group-text d-inline-block" style={{background: config.login.backIcons, borderRadius: "20px", height: "34px", border: config.login.borderIcons}}  href={config.socialMedia.instagram}>
+                                                    <i className="fa fa-linkedin" style={{color: config.login.colorIcons}}/>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div className='col-12 text-center mb-3'style={{marginTop: '20px'}}>
-                                            <label>Si tienes dudas o problemas llámanos al: (81) 1253 3080</label>
+                                        <div className='col-12 text-center mb-3'style={{marginTop: '20px', color: config.login.textColor}}>
+                                            <label>Si tienes dudas o problemas llámanos al </label> {config.socialMedia.numberPhone}
                                         </div>
                                     </div>
                                 </div>

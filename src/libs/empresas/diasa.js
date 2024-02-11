@@ -85,7 +85,7 @@ export default {
     },
 
     navBar: {
-        icon: require('../../images/diasa/logo-diasa.png'),
+        icon: require('../../images/diasa/logo-manpalider.webp'),
         iconWhite: require("../../images/diasa/newDiasa/logoWhite.svg"),
         icono2Login: require('../../images/diasa/logotipo2Login.png'),
         iconoCodigo: require('../../images/diasa/newDiasa/ic_lupa.svg'),
@@ -207,7 +207,7 @@ export default {
     ],
 
     Back:{
-        backgroundColor:"#fff"
+        backgroundColor:"#000000"
     },
 
     BarraTelefono:{
@@ -243,11 +243,11 @@ export default {
                 name: 'Oficina principal',
                 street: 'WRXP+PCC, Ruta Nacional Treciaria 310, San José, San Rafael, Guachipelin, Costa Rica',
                 country: 'Guachipelin, Costa Rica',
-                phone: '(772) 123 4567',//Whatsapp: 3313207614
+                phone: '+506 2215 6363',//Whatsapp: 3313207614
                 email: 'ventas@manpalider.com',
                 maps: 'https://maps.app.goo.gl/EfSUrswsXrkfsXjk9',
                 whatsappLink: 'https://wa.me/message/',
-                whatsapp: '(772) 123 4567',
+                whatsapp: '+506 2215 6363',
             }
         ]
     },
@@ -435,6 +435,23 @@ export default {
         Devoluciones : false,
         Address : false,
         EditAddress : false,
+    },
+
+    login:{
+        buttons: '#000000',
+        // Estilos Iconos
+        colorIcons: 'black',
+        backIcons: '#FF9C00',
+        borderIcons: '2px solid #000000', 
+        textColor: 'white', 
+        background: '#FF9C00'
+    },
+
+    socialMedia:{
+        facebook: 'https://www.facebook.com/DistribuidoraManpalider',
+        instagram: 'https://www.instagram.com/manpalider/',
+        numberPhone: '+506 2215 6363',
+        correo: 'ventas@manpalider.com'
     },
 
     // LOCAL

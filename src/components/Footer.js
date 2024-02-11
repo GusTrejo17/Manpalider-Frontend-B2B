@@ -156,11 +156,11 @@ class Footer extends Component {
                                     <img className='mb-4' src={config.footer.icon} style={{ maxWidth: "150px" }} />
                                     <a className='mb-3' href={"mailto:" + config.footer.info.email} style={{ textDecoration: "none", color: 'white' }}>
                                         <img className='mr-1' src={config.footer.info.emailIcon} style={{ maxWidth: "20px" }} />
-                                        ventas@manpalider.com
+                                        {config.socialMedia.correo}
                                     </a>
                                     <label>
                                         <img className='mr-1' src={config.footer.info.phoneIcon} style={{ maxWidth: "20px" }} />
-                                        (772) 123 4567
+                                        {config.socialMedia.numberPhone}
                                     </label>
                                 </div>
                                 <div className="text-center">
@@ -264,13 +264,13 @@ class Footer extends Component {
                                 <div className='col-6 text-left'>
                                     <a href={"mailto:" + config.footer.info.email} style={{ textDecoration: "none", color: 'white' }}>
                                         <img className='mr-1' src={config.footer.info.emailIcon} style={{ maxWidth: "20px" }} />
-                                        ventas@manpalider.com
+                                        {config.socialMedia.correo}
                                     </a>
                                 </div>
                                 <div className='col-6 text-right'>
                                     <label>
                                         <img className='mr-1' src={config.footer.info.phoneIcon} style={{ maxWidth: "20px" }} />
-                                        (772) 123 4567
+                                        {config.socialMedia.numberPhone}
                                     </label>
                                 </div>
                             </div>
