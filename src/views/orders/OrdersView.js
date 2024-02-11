@@ -323,8 +323,8 @@ class OrdersView extends Component {
                                     onKeyDown={event => event.keyCode === 13 && oneOrder.trim() !== '' && getData(9)}
                                 />
 
-                                <button type="button" className="searchButton" onClick={()=> oneOrder.trim() !== '' && getData(9)} disabled={docsToPrint.length!==0}>
-                                    <i style={{fontSize: "1.3rem"}} className={config.icons.search}/>
+                                <button style={{background: config.Back.color, border: config.Back.color}} type="button" className="searchButton" onClick={()=> oneOrder.trim() !== '' && getData(9)} disabled={docsToPrint.length!==0}>
+                                    <i style={{fontSize: "1.3rem", color: 'white'}} className={config.icons.search}/>
                                 </button>
                             </div>
                         </div>
@@ -360,7 +360,7 @@ class OrdersView extends Component {
                             onClick={()=> getData(11)}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -452,7 +452,7 @@ class OrdersView extends Component {
                                         </td>
                                         <td className="col-lg-auto text-center" style={{fontSize:"1rem", width: '250px'}}>
                                             <span onClick={() => this.openOrder(order.DocEntry)}>
-                                                <i className={config.icons.detail} style={{ fontSize:"1rem", color: '#0060EA', paddingRight: 6 }}></i>
+                                                <i className={config.icons.detail} style={{ fontSize:"1rem", color: config.Back.color, paddingRight: 6 }}></i>
                                                 Detalle
                                             </span>
                                         </td>

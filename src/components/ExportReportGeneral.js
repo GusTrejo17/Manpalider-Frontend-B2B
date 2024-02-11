@@ -105,7 +105,7 @@ const ExportReportGeneral = ({ data,itemsGift,items, address,bill, enableSpinner
           Imprimir Cotización
         </button>
         :
-        <button className="btn float-left impr mr-sm-2" style={{ marginTop: "15px", background: "#0060EA", color: "white" }} onClick={()=>print(typeDocs)}>
+        <button className="btn float-left impr mr-sm-2" style={{ marginTop: "15px", background: config.Back.color, color: "white" }} onClick={()=>print(typeDocs)}>
           <i className="fas fa-print"/>
           <span style={{marginLeft: '10px'}}>Imprimir PDF</span>
         </button>

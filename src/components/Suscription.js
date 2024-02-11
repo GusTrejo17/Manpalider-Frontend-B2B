@@ -140,7 +140,7 @@ class Suscription extends Component {
                 <div className='row'>
                     <div className='col-md-1'></div>
                     <div className=' ml-md-0 mr-md-0 col-12 col-lg-4 mt-md-2 pl-md-5 pr-md-5'>
-                        <strong className='p-3' style={{fontSize: "16px", color: "#0060ea"}}>Suscríbete a nuestro newsletter</strong>
+                        <strong className='p-3' style={{fontSize: "16px", color: config.Back.color}}>Suscríbete a nuestro newsletter</strong>
                         <p className='pl-3' style={{ fontSize: "12px" }}>
                             <span>Sé de los primeros en enterarte de todas nuestras novedades</span>
                             <br></br>
@@ -167,8 +167,8 @@ class Suscription extends Component {
                                 placeholder="Ejemplo: correo@dominio.com"
                             />
                             <div className="input-group-prepend">
-                                <span className="input-group-text input-group-text-search" style={{background: "#0060ea", borderTopRightRadius: "20px", borderBottomRightRadius: "20px", borderLeft: "none" }}>
-                                    <div style={{ display: "flex", justifyContent: "center", borderRadius: "20px", height: "32px", background: "#0060ea"}} onClick={() => this.subscribeUnsubscribe(parameterSubscribeUnsuscribe)}>
+                                <span className="input-group-text input-group-text-search" style={{background: config.Back.color, borderTopRightRadius: "20px", borderBottomRightRadius: "20px", borderLeft: "none" }}>
+                                    <div style={{ display: "flex", justifyContent: "center", borderRadius: "20px", height: "32px", background: config.Back.color}} onClick={() => this.subscribeUnsubscribe(parameterSubscribeUnsuscribe)}>
                                         <span class="ml-1 p-2" style={{fontSize: "12px", color: "white"}} aria-hidden="true">{nameButtonSubscription} &nbsp;</span>
                                     </div>
                                 </span>

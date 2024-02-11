@@ -149,11 +149,11 @@ body ::-webkit-scrollbar-track {
   }
   
   input:checked + .sliderDC {
-    background-color: #007bff;
+    background-color: #FF9C00;
   }
   
   input:focus + .sliderCO {
-    box-shadow: 0 0 1px #007bff;
+    box-shadow: 0 0 1px #FF9C00;
   }
   
   input:checked + .sliderDC:before {

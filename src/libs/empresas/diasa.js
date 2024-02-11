@@ -207,7 +207,9 @@ export default {
     ],
 
     Back:{
-        backgroundColor:"#000000"
+        backgroundColor:"#fff",
+        // Color predominante
+        color:'#FF9C00'
     },
 
     BarraTelefono:{
@@ -443,8 +445,9 @@ export default {
         colorIcons: 'black',
         backIcons: '#FF9C00',
         borderIcons: '2px solid #000000', 
-        textColor: 'white', 
-        background: '#FF9C00'
+        textColor: 'white',
+        background1: '#000000',
+        background2: '#FF9C00'
     },
 
     socialMedia:{

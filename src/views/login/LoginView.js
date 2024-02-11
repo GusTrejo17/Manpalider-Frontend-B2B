@@ -1269,14 +1269,14 @@ class LoginView extends Component {
                             <div className="col-12 borderBotton"></div>
                         </div>
                         :
-                        <div className='content-fluid' style={{backgroundColor: config.Back.backgroundColor ,  paddingLeft:0, paddingRight:0}} >
+                        <div className='content-fluid' style={{backgroundColor: config.login.background1 ,  paddingLeft:0, paddingRight:0}} >
                             <div className='row justify-content-center' style = {{alignItems: "center", height: "100vh"}}>
                                 {/* <img className='im-fluid' src = {require('../../images/backgroundLogin.jpg')} style={{position: "fixed"}} alt='background'/> */}
                                 <div className='col-lg-5 text-center'>
                                     <img className = "img-fluid" onClick={() =>history.push('/')} src = {config.navBar.icon} style = {{maxWidth: 280, maxHeight: 130, cursor: "pointer"}} alt = {'logo-empresa'}/>
                                 </div>
                                 <div className='col-lg-7'>
-                                    <div className='position-lg-fixed' style={{background: config.login.background, height: "100%", width: "100%",  top:"0"}}/>
+                                    <div className='position-lg-fixed' style={{background: config.login.background2, height: "100%", width: "100%",  top:"0"}}/>
                                     <div className='row'>
                                         <div className='col-12 text-center mb-3'>
                                             <h2 style={{fontWeight: "bolder", color: config.login.textColor}}>¡B I E N V E N I D O!</h2>

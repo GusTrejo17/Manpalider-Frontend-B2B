@@ -521,55 +521,57 @@ class reportsView extends Component {
                     </div>
                     <div className="row">
                         <div className="col-md-12">
-                            <ul className="nav nav-tabs" id="myTab" role="tablist" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
+                            <div className='color-a'>
+                                <ul className="nav nav-tabs" id="myTab" role="tablist" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="quatations-tab" data-toggle="tab" href="#quatations" role="tab" aria-controls="quatations" onClick={() => this.onClickGetData(7)} aria-selected="false">Oferta de Venta</a>
+                                        </li>
+                                        : "" : ""
+                                    }
                                     <li className="nav-item">
-                                        <a className="nav-link" id="quatations-tab" data-toggle="tab" href="#quatations" role="tab" aria-controls="quatations" onClick={() => this.onClickGetData(7)} aria-selected="false">Oferta de Venta</a>
+                                        {/* <a className="nav-link active" id="pedido-tab" data-toggle="tab" href="#pedido" role="tab" aria-controls="pedido" onClick={() => this.onClickGetData(1)} aria-selected="true">Pedidos</a> */}
+                                        <a className="nav-link active" id="pedido-tab" data-toggle="tab" href="#pedido" role="tab" aria-controls="pedido" onClick={() => this.onClickGetData(11)} aria-selected="true">Pedidos</a>
                                     </li>
-                                    : "" : ""
-                                }
-                                <li className="nav-item">
-                                    {/* <a className="nav-link active" id="pedido-tab" data-toggle="tab" href="#pedido" role="tab" aria-controls="pedido" onClick={() => this.onClickGetData(1)} aria-selected="true">Pedidos</a> */}
-                                    <a className="nav-link active" id="pedido-tab" data-toggle="tab" href="#pedido" role="tab" aria-controls="pedido" onClick={() => this.onClickGetData(11)} aria-selected="true">Pedidos</a>
-                                </li>
-                                {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
+                                    {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="preliminar-tab" data-toggle="tab" href="#preliminar" role="tab" aria-controls="preliminar" onClick={() => this.onClickGetData(2)} aria-selected="false">Autorizaciones</a>
+                                        </li>
+                                        : "" : ""
+                                    }
                                     <li className="nav-item">
-                                        <a className="nav-link" id="preliminar-tab" data-toggle="tab" href="#preliminar" role="tab" aria-controls="preliminar" onClick={() => this.onClickGetData(2)} aria-selected="false">Autorizaciones</a>
+                                        <a className="nav-link" id="entrega-tab" data-toggle="tab" href="#entrega" role="tab" aria-controls="entrega" onClick={() => this.onClickGetData(6)} aria-selected="false">Entregas</a>
                                     </li>
-                                    : "" : ""
-                                }
-                                <li className="nav-item">
-                                    <a className="nav-link" id="entrega-tab" data-toggle="tab" href="#entrega" role="tab" aria-controls="entrega" onClick={() => this.onClickGetData(6)} aria-selected="false">Entregas</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" id="guardados-tab" data-toggle="tab" href="#guardados" role="tab" aria-controls="guardados" onClick={() => this.onClickGetData(1)} aria-selected="false">Guardados</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" id="factura-tab" data-toggle="tab" href="#factura" role="tab" aria-controls="factura" onClick={() => this.onClickGetData(3)} aria-selected="false">Facturas</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" id="vencidas-tab" data-toggle="tab" href="#vencidas" role="tab" aria-controls="vencidas" onClick={() => this.onClickGetData(4)} aria-selected="false">Facturas vencidas</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" id="cobranza-tab" data-toggle="tab" href="#cobranza" role="tab" aria-controls="cobranza" onClick={() => this.onClickGetData(5)} aria-selected="false">Cobranza</a>
-                                </li>
-                                {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
                                     <li className="nav-item">
-                                        <a className="nav-link" id="PedidosGenerales-tab" data-toggle="tab" href="#PedidosGenerales" role="tab" aria-controls="PedidosGenerales" onClick={() => this.onClickGetData(8)} aria-selected="false">Pedidos Generales</a>
+                                        <a className="nav-link" id="guardados-tab" data-toggle="tab" href="#guardados" role="tab" aria-controls="guardados" onClick={() => this.onClickGetData(1)} aria-selected="false">Guardados</a>
                                     </li>
-                                    : "" : ""
-                                }
-                                <li className="nav-item">
-                                    <a className="nav-link" id="HistorialCompra-tab" data-toggle="tab" href="#HistorialCompra" role="tab" aria-controls="HistorialCompra" onClick={() => this.onClickGetData(10)} aria-selected="false">Historial de compra</a>
-                                </li>
-                                {/* {
-                                    usuario.U_FMB_Handel_Perfil === "2" && */}
-                                {/* <li className="nav-item">
-                                        <a className="nav-link" id="resumen-tab" data-toggle="tab" href="#resumen" role="tab" aria-controls="resumen" aria-selected="false">Resumen</a>
-                                    </li> */}
-                                {/* } */}
+                                    <li className="nav-item">
+                                        <a className="nav-link" id="factura-tab" data-toggle="tab" href="#factura" role="tab" aria-controls="factura" onClick={() => this.onClickGetData(3)} aria-selected="false">Facturas</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" id="vencidas-tab" data-toggle="tab" href="#vencidas" role="tab" aria-controls="vencidas" onClick={() => this.onClickGetData(4)} aria-selected="false">Facturas vencidas</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" id="cobranza-tab" data-toggle="tab" href="#cobranza" role="tab" aria-controls="cobranza" onClick={() => this.onClickGetData(5)} aria-selected="false">Cobranza</a>
+                                    </li>
+                                    {seller ? seller.U_FMB_Handel_Perfil !== '0' ?
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="PedidosGenerales-tab" data-toggle="tab" href="#PedidosGenerales" role="tab" aria-controls="PedidosGenerales" onClick={() => this.onClickGetData(8)} aria-selected="false">Pedidos Generales</a>
+                                        </li>
+                                        : "" : ""
+                                    }
+                                    <li className="nav-item">
+                                        <a className="nav-link" id="HistorialCompra-tab" data-toggle="tab" href="#HistorialCompra" role="tab" aria-controls="HistorialCompra" onClick={() => this.onClickGetData(10)} aria-selected="false">Historial de compra</a>
+                                    </li>
+                                    {/* {
+                                        usuario.U_FMB_Handel_Perfil === "2" && */}
+                                    {/* <li className="nav-item">
+                                            <a className="nav-link" id="resumen-tab" data-toggle="tab" href="#resumen" role="tab" aria-controls="resumen" aria-selected="false">Resumen</a>
+                                        </li> */}
+                                    {/* } */}
 
-                            </ul>
+                                </ul>
+                            </div>
                             <div className="tab-content" id="myTabContent">
                                 <div className="tab-pane fade show active" id="pedido" role="tabpanel" aria-labelledby="pedido-tab">
                                     {/* <OrdersView 

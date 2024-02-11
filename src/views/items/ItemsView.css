@@ -920,7 +920,7 @@
   /* esto es para dibujar la linea azul debajo del tab activado, ya sea descripcion o características */
   .nav-tabs .nav-link.active,
   .show>.nav-tabs .nav-link{
-    border-bottom: solid 4px #0078C0 !important;
+    border-bottom: solid 4px #FF9C00 !important;
     background: transparent !important;
     color: #666666 !important;
     border-top: none !important;

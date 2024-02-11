@@ -45,8 +45,8 @@
 }
 
 .page-item.active .page-link{
-  background: #0060EA !important;
-  border-color: #0078c0 !important;
+  background: #FF9C00 !important;
+  border-color: #FF9C00 !important;
 }
 
 @media screen and (max-width: 600px) {

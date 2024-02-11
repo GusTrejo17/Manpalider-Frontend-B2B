@@ -39,3 +39,10 @@
     .reports {
     }
   }
+
+  .color-a a {
+    color: #FF9C00 ;
+  }
+  .color-a a:hover{
+    color: #FF9C00 ;
+  }

@@ -389,8 +389,7 @@ class Selector extends Component {
         return (
             <div>
                 <div>
-                    <h2 style={{fontWeight:" bolder",
-  fontSize:"2.5rem !important" }}>Buscar un cliente</h2>
+                    <h2 style={{fontWeight:" bolder", fontSize:"2.5rem !important" }}>Buscar un cliente</h2>
                     <div className="row">
                         <div className="col-md-8 pb-2">
                             <input
@@ -407,7 +406,7 @@ class Selector extends Component {
                             <button
                                 className="btn"
                                 type="button"
-                                style={{ backgroundColor: '#0060EA', color: config.navBar.iconModal }}
+                                style={{ backgroundColor: config.Back.color, color: config.navBar.iconModal }}
                                 onClick={() => this.search()}>
                                 <strong>Buscar</strong>
                             </button>
@@ -438,7 +437,7 @@ class Selector extends Component {
                                                 <button
                                                     className="btn"
                                                     type="button"
-                                                    style={{ backgroundColor: '#0060EA', color: config.navBar.iconModal }}
+                                                    style={{ backgroundColor: config.Back.color, color: config.navBar.iconModal }}
                                                     onClick={() => this.selectClient(index)}>
                                                     <span>
                                                         <i className={config.icons.select} style={{color: config.navBar.iconColor2}}/>

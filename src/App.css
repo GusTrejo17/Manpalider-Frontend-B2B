@@ -688,7 +688,7 @@ input[placeholder="Cantidad"]::placeholder {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #0060EA;
+    background-color: #FF9C00;
 }
 
 .scrolltable table-responsive {
