@@ -1,4 +1,4 @@
-  import React, {Component} from 'react';
+import React, {Component} from 'react';
 import {Session, OrderDetailsModal,BillDetailModel,overDueBillModal} from "../../components";
 import {DISPATCH_ID, SERVICE_API, SERVICE_RESPONSE, VIEW_NAME, config} from "../../libs/utils/Const";
 import {ApiClient} from "../../libs/apiClient/ApiClient";
@@ -241,7 +241,7 @@ class overdueViews extends Component {
                             // onClick={()=>openModalMailPDF()}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -324,7 +324,7 @@ class overdueViews extends Component {
                                                 </th>
                                                 <th scope="row" className="text-center" style={{width:'250px', fontSize:"1rem"}}>
                                                     <span onClick={() => this.openOrder(order.DocNum)}>
-                                                        <i className={config.icons.detail} style={{color: config.shoppingList.summaryList, paddingRight: 6}}></i>
+                                                        <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                         Detalle
                                                     </span>
                                                 </th>
@@ -387,7 +387,7 @@ class overdueViews extends Component {
                                                 </th>
                                                 <th scope="row" className="text-center" style={{width:'250px', fontSize:"1rem"}}>
                                                     <span onClick={() => this.openOrder(order.DocNum)}>
-                                                        <i className={config.icons.detail} style={{color: config.shoppingList.summaryList, paddingRight: 6}}></i>
+                                                        <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                         Detalle
                                                     </span>
                                                 </th>
@@ -451,7 +451,7 @@ class overdueViews extends Component {
                                                 {/* 117 aqui perro  */}
                                                 <th scope="row" className="text-center" style={{width:'250px', fontSize:"1rem"}}>
                                                     <span onClick={() => this.openOrder(order.DocNum)}>
-                                                        <i className={config.icons.detail} style={{color: config.shoppingList.summaryList, paddingRight: 6}}></i>
+                                                        <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                         Detalle
                                                     </span>
                                                 </th>
@@ -515,7 +515,7 @@ class overdueViews extends Component {
                                                 </th>
                                                 <th scope="row" className="text-center" style={{width:'250px', fontSize:"1rem"}}>
                                                     <span onClick={() => this.openOrder(order.DocNum)}>
-                                                        <i className={config.icons.detail} style={{color: config.shoppingList.summaryList, paddingRight: 6}}></i>
+                                                        <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                         Detalle
                                                     </span>
                                                 </th>
@@ -602,7 +602,7 @@ class overdueViews extends Component {
                                                 </th>
                                                 <th scope="row" className="text-center" style={{width:'250px', fontSize:"1rem"}}>
                                                     <span onClick={() => this.openOrder(order.DocNum)}>
-                                                        <i className={config.icons.detail} style={{color: config.shoppingList.summaryList, paddingRight: 6}}></i>
+                                                        <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                         Detalle
                                                     </span>
                                                 </th>

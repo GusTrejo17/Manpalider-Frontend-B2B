@@ -305,7 +305,7 @@ class savedViews extends Component {
 
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -342,7 +342,7 @@ class savedViews extends Component {
                             onClick={()=>getData(1)}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor:config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -391,7 +391,7 @@ class savedViews extends Component {
                                         <td className="col-lg-3 text-center" style={{width: '250px',fontSize: "14px"}}>{order.Status}</td>
                                         <td className="col-lg-3 text-center" style={{width: '250px',fontSize: "14px"}}>
                                             <span onClick={() => this.openOrder(order.id, order.DateCart, order.updateCart, order)}>
-                                                <i className={config.icons.detail} style={{color: '#0060EA', paddingRight: 6}}></i>
+                                                <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                 Detalle
                                             </span>
                                         </td>

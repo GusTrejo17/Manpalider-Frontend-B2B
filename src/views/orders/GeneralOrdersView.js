@@ -203,7 +203,7 @@ class GeneralOrdersView extends Component {
                             onClick={()=>getData(8)}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -283,7 +283,7 @@ class GeneralOrdersView extends Component {
                                     </td>
                                     <td className="col-lg-auto" style={{fontSize:"1rem", width: '250px'}}>
                                         <span onClick={() => this.openOrder(order.DocEntry)}>
-                                            <i className={config.icons.detail} style={{ fontSize:"1rem", color: '#0060EA', paddingRight: 6 }}></i>
+                                            <i className={config.icons.detail} style={{ fontSize:"1rem", color: config.Back.color, paddingRight: 6 }}></i>
                                             Detalle
                                         </span>
                                     </td>

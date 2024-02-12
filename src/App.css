@@ -715,7 +715,7 @@ input[placeholder="Cantidad"]::placeholder {
 
 .table-striped>tbody>tr:nth-child(even)>td,
 .table-striped>tbody>tr:nth-child(even)>th {
-    background-color: rgb(231,241,250);
+    background-color: #FFFFCC;
 }
 
 /* ----------------- ESTO ES PARA QUE LAS FLECHAS DEL CARRUSEL NO SE SOBREPONGAN EN LA NAVBAR -----------------*/

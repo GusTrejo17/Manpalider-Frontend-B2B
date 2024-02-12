@@ -209,7 +209,7 @@ class deliveryViews extends Component {
                             onClick={()=>getData(6)}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>
@@ -270,7 +270,7 @@ class deliveryViews extends Component {
                                         </td>
                                         <td style={{width: '100px', maxWidth:'100px',fontSize:"1rem"}}>
                                             <span onClick={() => this.openOrder(order.DocEntry)}>
-                                                <i className={config.icons.detail} style={{color: '#0060EA', paddingRight: 6}}></i>
+                                                <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                 Detalle
                                             </span>
                                         </td>

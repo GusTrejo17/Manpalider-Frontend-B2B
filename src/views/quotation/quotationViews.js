@@ -235,7 +235,7 @@ class QuotaionViews extends Component {
                             onClick={()=>getData(7)}
                             className="btn botonResumen" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColor2,
                                 fontWeight: "bold",
                             }}>

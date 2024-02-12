@@ -194,7 +194,7 @@ class preliminaryViews extends Component {
                             onClick={()=>getData(2)}
                             className="btn botonResumen text-white" 
                             style={{
-                                backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+                                backgroundColor: config.Back.color,
                                 color: config.navBar.textColorCategorieHover,
                                 fontWeight: "bold",
                             }}>
@@ -265,7 +265,7 @@ class preliminaryViews extends Component {
                                         </td>
                                         <td>
                                             <span onClick={() => this.openOrder(order.DocEntry)}>
-                                                <i className={config.icons.detail} style={{color: '#0060EA', paddingRight: 6}}></i>
+                                                <i className={config.icons.detail} style={{color: config.Back.color, paddingRight: 6}}></i>
                                                 Detalle
                                             </span>
                                         </td>
