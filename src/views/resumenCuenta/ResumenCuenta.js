@@ -98,7 +98,7 @@ class ResumenCuenta extends Component {
                     <h1>Datos de Cuenta y Crédito</h1>
                     <table className='account-data'>
                         <tr>
-                            <th colSpan='6' style={{ background: 'rgb(40,111,218)', color: 'white' }}>DATOS DEL CLIENTE</th>
+                            <th colSpan='6' style={{ background: config.Back.color, color: 'white' }}>DATOS DEL CLIENTE</th>
                         </tr>
                         <tr className='just-one-h'>
                             <td colSpan='3'>
@@ -118,7 +118,7 @@ class ResumenCuenta extends Component {
                                 <span >{infoSN.CondicionPago}</span>
                             </td>
                         </tr>
-                        <tr className='just-one-h' style={{ background: 'rgb(231,241,250)' }}>
+                        <tr className='just-one-h' style={{ background: config.Back.transparent}}>
                             <td colSpan='3'>
                                 <b>RFC: </b><br />
                                 <span >{infoSN.RFC}</span>
@@ -140,7 +140,7 @@ class ResumenCuenta extends Component {
                                 <p>{addr[1]}</p>
                             </td>
                         </tr>
-                        <tr className='just-one-h' style={{ background: 'rgb(231,241,250)' }}>
+                        <tr className='just-one-h' style={{ background: config.Back.transparent}}>
                             <td colSpan='3'>
                                 <b>Responsable de Cuenta: </b><br />
                                 <span>{infoSN.Responsable}</span>
@@ -177,7 +177,7 @@ class ResumenCuenta extends Component {
                     <div className='container-fluid p-0 m-0' style={{width: '100%'}}>
                         <div className='row justify-content-center'>
                             <div className='col-lg-4 col-md-6 col-12 mt-4'>
-                                <div style={{ background: '#E3F1FC', padding: '10px 20px' }}>
+                                <div style={{ background: config.Back.transparent, padding: '10px 20px' }}>
                                     <b>Límite de Crédito</b> <br />
                                     <span style={{fontSize: '20px'}}>
                                         <CurrencyFormat 
@@ -211,7 +211,7 @@ class ResumenCuenta extends Component {
                                 </div>  
                             </div>
                             <div className='col-lg-4 col-md-6 col-12 mt-4'>
-                                <div style={{ background: '#E3F1FC', padding: '10px 20px'}}>
+                                <div style={{ background: config.Back.transparent, padding: '10px 20px'}}>
                                     <b>Saldo Total</b> <br />
                                     <span style={{fontSize: '20px'}}>
                                         <CurrencyFormat 
@@ -245,7 +245,7 @@ class ResumenCuenta extends Component {
                                 </div>   
                             </div>
                             <div className='col-lg-4 col-md-6 col-12 mt-4'>
-                                <div style={{ background: '#E3F1FC', padding: '10px 20px'}}>
+                                <div style={{ background: config.Back.transparent, padding: '10px 20px'}}>
                                     <b>Saldo Vencido</b> <br />
                                     <span style={{fontSize: '20px'}}>
                                         <CurrencyFormat 
@@ -289,7 +289,7 @@ class ResumenCuenta extends Component {
                     <br />
                     <table className='account-data'>
                         <tr>
-                            <th colSpan='6' style={{ background: 'rgb(40,111,218)', color: 'white' }}>ATENCIÓN A CUENTA</th>
+                            <th colSpan='6' style={{ background: config.Back.color, color: 'white' }}>ATENCIÓN A CUENTA</th>
                         </tr>
                         <tr className='just-one-h'>
                             <td>
@@ -309,7 +309,7 @@ class ResumenCuenta extends Component {
                 </div>
                 <br></br>
                 <div className='button-cont' >
-                    <button className='btcont p-3 pl-5 pr-5' style={{ marginLeft:'50px', fontSize: '16px',backgroundColor:'#0060EA', borderRadius: '50px', color:'white',display: 'flex !important', justifyContent:'center !important', alignContent:'center !important'}} onClick={this.handleEstadoDeCuentaClick}>Estado de cuenta</button>
+                    <button className='btcont p-3 pl-5 pr-5' style={{ marginLeft:'50px', fontSize: '16px',backgroundColor:config.Back.color, borderRadius: '50px', color:'white',display: 'flex !important', justifyContent:'center !important', alignContent:'center !important'}} onClick={this.handleEstadoDeCuentaClick}>Estado de cuenta</button>
                 </div>
             </div>
         );

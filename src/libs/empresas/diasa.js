@@ -209,7 +209,8 @@ export default {
     Back:{
         backgroundColor:"#fff",
         // Color predominante
-        color:'#FF9C00'
+        color:'#FF9C00',
+        transparent: '#FFFFCC',
     },
 
     BarraTelefono:{

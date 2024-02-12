@@ -1988,7 +1988,7 @@ class ValidateOrderView extends Component {
                     </div>
                     <div className="col-lg-3">
                         <div className="card" style={{borderRadius: 20 , borderColor: 'white', backgroundColor: 'white', border: '1px solid  rgba(124, 124, 125, 0.3)' }}>
-                            <div className="card-header text-white" style={{ background: "#0060EA", borderTopRightRadius: 20, borderTopLeftRadius: 20}}>
+                            <div className="card-header text-white" style={{ background: config.Back.color, borderTopRightRadius: 20, borderTopLeftRadius: 20}}>
                                 <div className="card-title">
                                     <h5 style={{ color: config.shoppingList.textsummaryList }}>Detalles del envío</h5>
                                 </div>

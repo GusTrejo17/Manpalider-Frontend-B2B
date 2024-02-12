@@ -277,7 +277,7 @@ class AccountStatusView extends Component {
                         </div>                        
                         <table className='account-data'>
                             <tr>
-                                <th colSpan='6' style={{ background: 'rgb(40,111,218)', color: 'white' }}>DATOS DEL CLIENTE</th>
+                                <th colSpan='6' style={{ background: config.Back.color, color: 'white' }}>DATOS DEL CLIENTE</th>
                             </tr>
                             <tr className='just-one-h'>
                                 <td colSpan='3'>
@@ -297,7 +297,7 @@ class AccountStatusView extends Component {
                                     <span >{infoSN.CondicionPago}</span>
                                 </td>
                             </tr>
-                            <tr className='just-one-h' style={{ background: 'rgb(231,241,250)' }}>
+                            <tr className='just-one-h' style={{ background: config.Back.transparent }}>
                                 <td colSpan='3'>
                                     <b>RFC: </b><br />
                                     <span >{infoSN.RFC}</span>
@@ -367,7 +367,7 @@ class AccountStatusView extends Component {
                                     </div>
                                 </td>
                             </tr>
-                            <tr className='just-one-h' style={{ background: 'rgb(231,241,250)' }}>
+                            <tr className='just-one-h' style={{ background: config.Back.transparent }}>
                                 <td>
                                     <div className='container-fluid'>
                                         <div className='row'>

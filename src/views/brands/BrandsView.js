@@ -120,7 +120,7 @@ class Brands extends Component {
                                                 </div>
                                                 <div className="card-body" style={{ margin: 0, padding: 0, color: config.itemsList.textColor2 }}>
                                                     <div className="overflow-auto">
-                                                        <p className="card-title font-weight-bold text-center" style={{ margin: 0, padding: 0, fontSize: 16, height: '3rem', color: "#0078C0" }}>
+                                                        <p className="card-title font-weight-bold text-center" style={{ margin: 0, padding: 0, fontSize: 16, height: '3rem', color: config.Back.color}}>
                                                             {categoria.itemCode}
                                                         </p>
                                                     </div>
@@ -143,7 +143,7 @@ class Brands extends Component {
                                                 </div>
                                                 <div className="card-body" style={{ margin: 0, padding: 0, color: config.itemsList.textColor2 }}>
                                                     <div className="overflow-auto">
-                                                        <p className="card-title font-weight-bold text-center" style={{ margin: 0, padding: 0, fontSize: 16, height: '3rem', color: "#0078C0" }}>
+                                                        <p className="card-title font-weight-bold text-center" style={{ margin: 0, padding: 0, fontSize: 16, height: '3rem', color: config.Back.color }}>
                                                             {categoria.itemCode}
                                                         </p>
                                                     </div>
