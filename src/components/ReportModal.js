@@ -17,16 +17,16 @@ class ReportModal extends React.Component {
           <div>
             <img
               style={{ width: "80%", height: "auto" }}
-              src="https://1.bp.blogspot.com/-XagdVdcXBRU/YSzzn_GC-1I/AAAAAAAAAc8/tZz_AfBA-asmmVtTBI7OY39B50LNPRHEQCLcBGAsYHQ/w945-h600-p-k-no-nu/logo%2BDIASA.png"
+              src={config.Back.icon}
               alt="Logo"
             />
             <br />
             <div>
               <h2 class="mt-4 text-left font-weight-bold">
-                Distribuidora Industrial de Abrasivos S.A. de C.V
+                Manpalider
               </h2>
-              <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5>
-              <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5>
+              {/* <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5> */}
+              {/* <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5> */}
             </div>
           </div>
 
@@ -46,7 +46,7 @@ class ReportModal extends React.Component {
             {/* Tabla información de cliente */}
             <table style={{ width: "90%", borderCollapse: "collapse" }}>
               <thead>
-                <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                   <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                     Nº Cliente
                   </th>
@@ -76,7 +76,7 @@ class ReportModal extends React.Component {
 
             {/* Tabla información de carrito */}
             <table style={{ width: "90%", borderCollapse: "collapse" }}>
-              <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+              <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                 <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                   Nº Carrito
                 </th>
@@ -116,7 +116,7 @@ class ReportModal extends React.Component {
         >
           {/* Tabla productos de carrito */}
           <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+            <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
               {/* <th style={{ visibility: "hidden" }}>a</th> */}
               <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                 Cód. Fabricante
@@ -215,7 +215,7 @@ class ReportModal extends React.Component {
                     style={{
                       padding: "5px",
                       border: "0px solid #ddd",
-                      backgroundColor: "#0060EA",
+                      backgroundColor: config.Back.color,
                     }}
                     className="text-center text-white font-weight-bold"
                   >
@@ -238,7 +238,7 @@ class ReportModal extends React.Component {
                   <th
                     style={{
                       border: "0px solid #ddd",
-                      backgroundColor: "#0060EA",
+                      backgroundColor: config.Back.color,
                     }}
                     className="text-center text-white font-weight-bold"
                   >
@@ -261,7 +261,7 @@ class ReportModal extends React.Component {
                   <th
                     style={{
                       border: "0px solid #ddd",
-                      backgroundColor: "#0060EA",
+                      backgroundColor: config.Back.color,
                     }}
                     className="text-center text-white font-weight-bold"
                   >

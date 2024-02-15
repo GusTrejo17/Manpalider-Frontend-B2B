@@ -776,7 +776,7 @@ class ShoppingCartView extends Component {
                     <div className="col-6 text-right" style={{ padding: 0 }}>
                         <span className="text-right">
                             <CurrencyFormat
-                                value={subTotal}
+                                value={subTotal || 0}
                                 displayType={'text'}
                                 thousandSeparator={true}
                                 fixedDecimalScale={true}
@@ -825,7 +825,7 @@ class ShoppingCartView extends Component {
                     <div className="col-6 text-right" style={{ padding: 0 }}>
                         <span className="text-right">
                             <CurrencyFormat
-                                value={taxTotal}
+                                value={taxTotal || 0}
                                 displayType={'text'}
                                 thousandSeparator={true}
                                 fixedDecimalScale={true}
@@ -852,7 +852,7 @@ class ShoppingCartView extends Component {
                                     prefix={'$'}>
                                 </CurrencyFormat> :
                                 <CurrencyFormat
-                                    value={total}
+                                    value={total || 0}
                                     displayType={'text'}
                                     thousandSeparator={true}
                                     fixedDecimalScale={true}

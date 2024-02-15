@@ -20,16 +20,16 @@ class DeliverysPrintFormat extends React.Component {
             <div>
               <img
                 style={{ width: "300px"}}
-                src="https://1.bp.blogspot.com/-XagdVdcXBRU/YSzzn_GC-1I/AAAAAAAAAc8/tZz_AfBA-asmmVtTBI7OY39B50LNPRHEQCLcBGAsYHQ/w945-h600-p-k-no-nu/logo%2BDIASA.png"
+                src={config.Back.icon}
                 alt="Logo"
               />
               <br />
               <div>
                 <h2 class="mt-4 text-left font-weight-bold">
-                  Distribuidora Industrial de Abrasivos S.A. de C.V
+                  Manpalider
                 </h2>
-                <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5>
-                <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5>
+                {/* <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5> */}
+                {/* <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5> */}
               </div>
             </div>
 
@@ -50,7 +50,7 @@ class DeliverysPrintFormat extends React.Component {
               {/* Tabla información de cliente */}
               <table style={{ width: "90%", borderCollapse: "collapse" }}>
                 <thead>
-                  <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                  <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                     <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                       Nº Cliente
                     </th>
@@ -85,7 +85,7 @@ class DeliverysPrintFormat extends React.Component {
 
               {/* Tabla información de N° entrega, Fecha y Vendedor Asignado */}
               <table style={{ width: "90%", borderCollapse: "collapse" }}>
-                <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                   <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                     Nº Entrega
                   </th>
@@ -124,7 +124,7 @@ class DeliverysPrintFormat extends React.Component {
               {/* {Tabla información de direcciones} */}
               <table style={{ width: "90%", borderCollapse: "collapse" }}>
                 <thead>
-                  <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                  <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                     <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                       Domicilio de entrega
                     </th>
@@ -163,7 +163,7 @@ class DeliverysPrintFormat extends React.Component {
 
             {/* Tabla info body */}
             <table>
-              <tr className="text-white text-center" style={{ backgroundColor: "#0060EA" }}>
+              <tr className="text-white text-center" style={{ backgroundColor: config.Back.color }}>
                 <th>Cód. Fabricante</th>
                 <th>Código SAP</th>
                 <th>Descripción</th>
@@ -215,7 +215,7 @@ class DeliverysPrintFormat extends React.Component {
               <tr>
                 <th
                   className="text-white p-2"
-                  style={{ backgroundColor: "#0060EA" }}
+                  style={{ backgroundColor: config.Back.color }}
                 >
                   Subtotal
                 </th>
@@ -236,7 +236,7 @@ class DeliverysPrintFormat extends React.Component {
                 <th
                   className="text-white"
                   style={{
-                    backgroundColor: "#0060EA",
+                    backgroundColor: config.Back.color,
                   }}
                 >
                   IVA 16%
@@ -258,7 +258,7 @@ class DeliverysPrintFormat extends React.Component {
                 <th
                   className="text-white"
                   style={{
-                    backgroundColor: "#0060EA",
+                    backgroundColor: config.Back.color,
                   }}
                 >
                   Total

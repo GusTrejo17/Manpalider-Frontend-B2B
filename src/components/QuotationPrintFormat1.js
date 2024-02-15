@@ -17,16 +17,16 @@ class QuotationPrintFormat1 extends React.Component {
             <div>
               <img
                 style={{ width: "300px"}}
-                src="https://1.bp.blogspot.com/-XagdVdcXBRU/YSzzn_GC-1I/AAAAAAAAAc8/tZz_AfBA-asmmVtTBI7OY39B50LNPRHEQCLcBGAsYHQ/w945-h600-p-k-no-nu/logo%2BDIASA.png"
+                src={config.Back.icon}
                 alt="Logo"
               />
               <br />
               <div>
                 <h2 class="mt-4 text-left font-weight-bold">
-                  Distribuidora Industrial de Abrasivos S.A. de C.V
+                  Manpalider
                 </h2>
-                <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5>
-                <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5>
+                {/* <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5> */}
+                {/* <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5> */}
               </div>
             </div>
 
@@ -46,7 +46,7 @@ class QuotationPrintFormat1 extends React.Component {
               {/* Tabla información de cliente */}
               <table style={{ width: "90%", borderCollapse: "collapse" }}>
                 <thead>
-                  <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                  <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                     <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                       Nº Cliente
                     </th>
@@ -83,7 +83,7 @@ class QuotationPrintFormat1 extends React.Component {
 
               {/* Tabla información N° Cotización y Fecha */}
               <table style={{ width: "90%", borderCollapse: "collapse" }}>
-                <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                   <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                     Nº Cotización
                   </th>
@@ -114,7 +114,7 @@ class QuotationPrintFormat1 extends React.Component {
           {/* Tabla info body */}
           <div className="mt-5 d-flex flex-column bd-highlight text-center">
             <table className='text-center'>
-              <tr className="text-white" style={{ backgroundColor: "#0060EA" }}>
+              <tr className="text-white" style={{ backgroundColor: config.Back.color }}>
                 <th>Cód. Fabricante</th>
                 <th>Código SAP</th>
                 <th>Nombre</th>
@@ -168,7 +168,7 @@ class QuotationPrintFormat1 extends React.Component {
               <tr>
                 <th
                   className="text-white p-2"
-                  style={{ backgroundColor: "#0060EA" }}
+                  style={{ backgroundColor: config.Back.color }}
                 >
                   Subtotal
                 </th>
@@ -189,7 +189,7 @@ class QuotationPrintFormat1 extends React.Component {
                 <th
                   className="text-white"
                   style={{
-                    backgroundColor: "#0060EA",
+                    backgroundColor: config.Back.color,
                   }}
                 >
                   IVA 16%
@@ -211,7 +211,7 @@ class QuotationPrintFormat1 extends React.Component {
                 <th
                   className="text-white"
                   style={{
-                    backgroundColor: "#0060EA",
+                    backgroundColor: config.Back.color,
                   }}
                 >
                   Total

@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import CurrencyFormat from 'react-currency-format';
-
+import {config} from "../libs/utils/Const";
 const styles = {
     companyName: {
         fontSize: '32px',
@@ -69,9 +69,10 @@ class AccountStatusPrintFormat extends React.Component {
             <div className='container-fluid p-5' id='document'>
                 <div className="row" id='header'>
                     <div className='col-4 pr-5 pl-0 font-weight-bold'>
-                        <img style={{width: '80%', height:'auto'}} src="https://1.bp.blogspot.com/-XagdVdcXBRU/YSzzn_GC-1I/AAAAAAAAAc8/tZz_AfBA-asmmVtTBI7OY39B50LNPRHEQCLcBGAsYHQ/w945-h600-p-k-no-nu/logo%2BDIASA.png" />
-                        <h1 className='mt-3 font-weight-bold pr-3' style={styles.companyName}> Distribuidora Industrial de Abrasivos S.A. de C.V</h1>
-                        <p className='pl-1' style={styles.companyInfo} >TEL: 01(81)12533080 <br/>E-mail: pagos@diasa.net</p>
+                        <img style={{width: '80%', height:'auto'}} src={config.Back.icon} />
+                        <h1 className='mt-3 font-weight-bold pr-3' style={styles.companyName}> Manpalider</h1>
+                        {/* <p className='pl-1' style={styles.companyInfo} >TEL: 01(81)12533080 <br/>E-mail: pagos@diasa.net</p> */}
+                        <p className='pl-1' style={styles.companyInfo} >TEL: 01(81)12533080 <br/></p>
                     </div>
                     <div className='col-8 text-center'>
                         <div className='row text-right'>

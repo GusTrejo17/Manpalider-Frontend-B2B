@@ -211,6 +211,7 @@ export default {
         // Color predominante
         color:'#FF9C00',
         transparent: '#FFFFCC',
+        icon: require('../../images/favicon.webp'),
     },
 
     BarraTelefono:{

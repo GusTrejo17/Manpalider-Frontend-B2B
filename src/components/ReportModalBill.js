@@ -19,16 +19,16 @@ class ReportModalBill extends React.Component {
           <div>
             <img
               style={{ width: "80%", height: "auto" }}
-              src="https://1.bp.blogspot.com/-XagdVdcXBRU/YSzzn_GC-1I/AAAAAAAAAc8/tZz_AfBA-asmmVtTBI7OY39B50LNPRHEQCLcBGAsYHQ/w945-h600-p-k-no-nu/logo%2BDIASA.png"
+              src={config.Back.icon}
               alt="Logo"
             />
             <br />
             <div>
               <h2 class="mt-4 text-left font-weight-bold">
-                Distribuidora Industrial de Abrasivos S.A. de C.V
+                Manpalider
               </h2>
-              <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5>
-              <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5>
+              {/* <h5 class="mb-2 text-left">Av. 1a Avenida #1495 Piso 6 Col.</h5> */}
+              {/* <h5 class="text-left">Las Cumbres CP 64610 Monterrey, N.L.</h5> */}
             </div>
           </div>
 
@@ -45,7 +45,7 @@ class ReportModalBill extends React.Component {
             {/* Tabla información de cliente */}
             <table style={{ width: "90%", borderCollapse: "collapse", textAlign: "center" }}>
               <thead>
-                <tr style={{ backgroundColor: "#0060EA", color: "white" }}>
+                <tr style={{ backgroundColor: config.Back.color, color: "white" }}>
                   <th style={{ border: "0px solid #ddd", textAlign: "center" }}>
                     Nº Cliente
                   </th>

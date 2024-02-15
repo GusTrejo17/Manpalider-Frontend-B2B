@@ -1017,7 +1017,7 @@ class ShoppingCartList extends Component {
                                                                 <td style={{ color: "#DF7654", width: "8rem" }}>
                                                                     <CurrencyFormat
                                                                         displayType={'text'}
-                                                                        value={ item.priceTax }
+                                                                        value={ item.priceTax || 0}
                                                                         thousandSeparator={true}
                                                                         fixedDecimalScale={true}
                                                                         decimalScale={2}

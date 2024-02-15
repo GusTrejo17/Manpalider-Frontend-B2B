@@ -98,7 +98,7 @@ const ExportReportGeneral = ({ data,itemsGift,items, address,bill, enableSpinner
           onClick={()=>print(typeDocs)}          
           className="btn btn-block text-white"
           style={{
-              backgroundColor: config.navBar.menuCategoriesBackgroundHover,
+              backgroundColor: config.Back.color,
               color: config.navBar.textColorCategorieHover,
               fontWeight: "bold",
           }}>
