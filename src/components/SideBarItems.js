@@ -301,9 +301,9 @@ class SideBarItems extends Component {
         let limitNumber = 10;
         // Modal de categorias
         let twoColumns = dataCategories ? dataCategories.itemsCategories ? dataCategories.itemsCategories.length >= 10 ? Number(((dataCategories.itemsCategories.length + 9) / 2).toFixed(0)) : dataCategories.itemsCategories.length : 0 : 0;
-        if (!category || !category.length) {
-            return <Redirect to="/" />;
-        } else {
+        // if (!category || !category.length) {
+        //     return <Redirect to="/" />;
+        // } else {
             return (
                 <div>
                     {/* <div> <BreadCrumb data={dataCategories.itemsCategories}/></div> */}
@@ -699,7 +699,7 @@ class SideBarItems extends Component {
 
                 </div>
             );
-        }
+        // }
     }
 }
 
