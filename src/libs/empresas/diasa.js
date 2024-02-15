@@ -459,12 +459,12 @@ export default {
     },
 
     // LOCAL
-    // BASE_URL: 'http://localhost:8052/api',
-    // ASSETS: 'http://localhost:8052/api/uploads/', 
+    BASE_URL: 'http://localhost:8052/api',
+    ASSETS: 'http://localhost:8052/api/uploads/', 
 
     // PRUEBAS 
-    BASE_URL: 'http://45.235.129.118:3040/api',
-    ASSETS: 'http://45.235.129.118:3040/api/uploads/',
+    // BASE_URL: 'http://45.235.129.118:3040/api',
+    // ASSETS: 'http://45.235.129.118:3040/api/uploads/',
 
     // PRUEBAS LOCAL
     // BASE_URL: 'http://10.10.15.10:3052/api',
