@@ -1202,7 +1202,7 @@ class ShoppingCartView extends Component {
                             </div>
                         </div> */}
                         {/* BackOrder ESTO SE PUEDE BORRAR SOLO ES UNA PRUEBA 708 */}
-                        {true ?
+                        {false ?
                             <div className="card style-articles-cart mt-5" style={{
                                 borderRadius: 20, border: '1px solid #ADADAD'
                             }}>
