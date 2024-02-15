@@ -694,7 +694,8 @@ class ShoppingCartList extends Component {
                         // item.newTotal = parseFloat(item.newTotal).toFixed(2);
                         // item.DiscountPercentSpecial = parseFloat(item.DiscountPercentSpecial).toFixed(2);
                         // item.PriceBeforeDiscount = parseFloat(item.PriceBeforeDiscount).toFixed(2);
-                        let condition = (backOrder ? Number(item.quantity) > item.Available : Number(item.quantity) <= item.Available )
+                        // let condition = (backOrder ? Number(item.quantity) > item.Available : Number(item.quantity) <= item.Available )
+                        let condition = true;
                         if (condition) {
                             return (
                                 <div key={index} className='text-left card m-2 scrollshadow' style={{ border: 'none', minWidth: "100rem"}} >
